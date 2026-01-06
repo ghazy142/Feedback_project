@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Feedback Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- html2pdf.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <div class="page">
+    <!-- Top bar with title + logo -->
+    <header class="top-bar">
+      <div class="top-title">Student Feedback Generator</div>
+      <img src="./Logiscool.png" alt="Logiscool logo" class="logo">
+    </header>
+
+    <div class="layout">
+      <!-- LEFT: FORM -->
+      <div class="card">
+        <h2>Input Data</h2>
+
+        <label for="studentName">Student Name</label>
+        <input type="text" id="studentName" placeholder="e.g. Zeena Haque" />
+
+        <label for="feedbackType">Feedback type</label>
+        <select id="feedbackType">
+          <option value="mid">Mid-course feedback</option>
+          <option value="final">Final feedback</option>
+        </select>
+
+
+        <label for="courseSelect">Course Name</label>
+
+        <select id="courseSelect">
+              <option value="101">101 - Digital Explorer</option>
+              <option value="110">110 - Digital Intro</option>
+              <option value="111">111 - Digital Discovery Basic Normal 1</option>
+              <option value="112">112 - Digital Discovery Basic Normal 2</option>
+              <option value="113">113 - Digital Discovery Advanced Normal 1</option>
+              <option value="114">114 - Digital Discovery Advanced Normal 2</option>
+              <option value="121">121 - Digital Discovery Basic Fast</option>
+              <option value="122">122 - Digital Discovery Advanced Fast</option>
+
+              <option value="161">161 - Blox Basic normal 1</option>
+              <option value="162">162 - Blox Basic normal 2</option>
+              <option value="171">171 - Blox Basic fast</option>
+              <option value="211">211 - Blox Advanced normal 1</option>
+              <option value="212">212 - Blox Advanced normal 2</option>
+              <option value="213">213 - Blox Master</option>
+              <option value="221">221 - Blox Advanced fast</option>
+              <option value="291">291 - Game Design</option>
+
+              <option value="301">301 - Mix Intro (fast)</option>
+              <option value="311">311 - Mix Basic</option>
+              <option value="312">312 - Mix Advanced</option>
+
+              <option value="401">401 - Master Class Basic</option>
+              <option value="402">402 - Master Class Advanced</option>
+              <option value="403">403 - Basics of AI and Data Science</option>
+              <option value="404">404 - Basics of AI and Data Science Python</option>
+              <option value="405">405 - LEGO Spike Prime with Python</option>
+              <option value="411">411 - Godot Basic</option>
+              <option value="412">412 - Godot Advanced</option>
+              <option value="421">421 - Unity Basic</option>
+              <option value="422">422 - Unity Advanced</option>
+              <option value="431">431 - Python Basic</option>
+              <option value="432">432 - Python Advanced</option>
+              <option value="433">433 - Python Master</option>
+              <option value="434">434 - AI and Data Science with Python 1</option>
+              <option value="435">435 - AI and Data Science with Python 2</option>
+
+              <option value="491">491 - Developer Master Class</option>
+              <option value="492">492 - Developer Master Class Python</option>
+
+              <option value="Creative Design &amp; 3D">Creative Design &amp; 3D</option>
+              <option value="Creative Production">Creative Production</option>
+              <option value="Digital Art &amp; AI">Digital Art &amp; AI</option>
+              <option value="Digital Illustration &amp; AI">Digital Illustration &amp; AI</option>
+              <option value="Video Creation &amp; AI">Video Creation &amp; AI</option>
+              <option value="3D Design course">3D Design course</option>
+              <option value="App Creation course">App Creation course</option>
+              <option value="Digital Illustration Course for Kids">Digital Illustration Course for Kids</option>
+              <option value="Digital Illustration Course for Teens">Digital Illustration Course for Teens</option>
+              <option value="Generative AI course">Generative AI course</option>
+              <option value="ImagiCharm course">ImagiCharm course</option>
+              <option value="Minecraft Mod Masters course">Minecraft Mod Masters course</option>
+
+      </select>
+
+        <div class="row">
+          <div>
+            <label for="lessonsFrom">Lessons From</label>
+            <input type="text" id="lessonsFrom" placeholder="e.g. 1" />
+          </div>
+          <div>
+            <label for="lessonsTo">Lessons To</label>
+            <input type="text" id="lessonsTo" placeholder="e.g. 8" />
+          </div>
+        </div>
+
+        <label for="overviewInput">Overview</label>
+        <textarea id="overviewInput"
+          placeholder="Short paragraph about the student’s performance, attitude, and what they need to improve."></textarea>
+
+        <label for="coachNotesInput">Coach’s Notes & Recommendations</label>
+        <textarea id="coachNotesInput"
+          placeholder="Extra comments or recommendations for home practice, focus points, etc."></textarea>
+
+        <button class="btn" id="applyTemplateBtn">Fill with example text</button>
+        <button class="btn secondary" id="resetBtn" type="button">Clear</button>
+      
+
+        <hr />
+
+        <button class="btn" id="downloadPdfBtn" type="button">Download as PDF</button>
+        <p class="small-muted">
+          Tip: You can open the PDF in Word if you need a .docx version.
+        </p>
+      </div>
+
+      <!-- RIGHT: PREVIEW (PDF CONTENT) -->
+      <div class="card">
+        <h2>Preview</h2>
+
+
+        <div id="feedback-preview">
+            <div class="pdf-header">
+
+                <img src="./Logiscool.png" alt="Logiscool logo" class="logo-pdf">
+            </div>
+          <p class="header-line">
+                Feedback for <span id="previewStudentName">[Student Name]</span> –
+                <span id="previewCourseName">[Course Name]</span>
+          </p>
+          <p class="small-muted">
+            Trainer: Mohamed Ghazy 
+            <br>
+             Lessons attended:
+
+            <span id="previewLessonsRange">[1 → 8]</span>
+          </p>
+
+          <h3>Overview</h3>
+          <p id="previewOverview">
+            (Overview will appear here…)
+          </p>
+
+          <h3>What We Covered (Sessions)</h3>
+          <ul id="previewCovered">
+            <li>Session 1–2: Introduction to Scoolcode environment, movement, and animation basics. Students learned to move characters using events, loops, and direction blocks. Movement and
+positioning blocks</li>
+            <li>Session 3–4:Using the Pen tool to draw geometric shapes, understanding repetition and angles, and Drawing
+with the Pen tool</li>
+            <li>Session 5: Introduction to variables — creating and updating score and time counters. Conditional logic with “if–then”</li>
+            <li>Session 6: Using conditions (if/else) for decision-making and reactions (like touching colors or
+actors)..Mini project combining movements, loops, and variables</li>
+            <li>Session 7: Building interactive mini-games with motion, sensing, and variables.</li>
+            <li>Session 8: Mini-project: complete small game with controls, scoring, and win conditions.</li>
+          </ul>
+          
+          <div id="next-section">
+            <h3>What’s Next (Upcoming Lessons)</h3>
+            <ul id="previewNext">
+                        <li>Session 9–10: Introduction to timing and countdown mechanics. Students will learn how to use timers to control events, delays, and game pacing. Creating games that react when time runs out (win/lose conditions).</li>
+                        <li>Session 11–12: Advanced use of variables — tracking multiple values such as score, lives, levels, or collected
+            items.</li>
+                        <li>Session 13–14:Working with lists and storing multiple pieces of information
+            Students practice creating list-based games (like quizzes, menu systems, or item storage). Understanding indexing and accessing list items.</li>
+                        <li>Session 15: Mini-project: students build a full game using movement, sensing, variables, and lists. This session focuses on creativity and applying everything learned so far.</li>
+                        <li>Session 16: Introduction to simple AI-like behavior — enemies that move, chase, or react. Students learn more advanced logic and conditions to make games feel more dynamic.</li>
+                        <li>Session 17: Final project — students design and build their own complete game from scratch. They will choose the theme, mechanics, and style, and apply all core concepts learned
+            throughout the course.</li>
+          </ul>
+          </div>
+
+
+
+          <h3>Coach’s Notes & Recommendations</h3>
+          <p id="previewCoachNotes">
+            (Coach’s notes will appear here…)
+          </p>
+
+          <div class="signature">
+            <p>Best regards,</p>
+            <p>Eng. Mohamed Ghazy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <footer class="site-footer">
+    Made by Eng. Mohamed Ghazy · Logiscool UAE
+
+  </footer> -->
+
+
+
+  <!-- JS -->
+  <script src="./script.js"></script>
+</body>
+
+
+</html>

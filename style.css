@@ -1,0 +1,207 @@
+:root {
+  --bg: #f4f4f8;
+  --card: #ffffff;
+  --primary: #2c3e50;
+  --accent: #3498db;
+  --muted: #7f8c8d;
+  --border: #e0e0e0;
+  --radius: 10px;
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--primary);
+}
+
+/* Page wrapper */
+.page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Top bar with title and logo */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 10px 16px;
+  margin-bottom: 20px;
+}
+
+.top-title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.logo {
+  height: 40px;
+
+  object-fit: contain;
+}
+
+/* Main layout */
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.6fr);
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .top-bar {
+    flex-direction: row;
+  }
+
+  .logo {
+    height: 32px;
+  }
+}
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px 20px;
+}
+
+.card h2 {  
+  margin-top: 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Form */
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: var(--muted);
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 70px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row > div {
+  flex: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: var(--accent);
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.btn.secondary {
+  background: #95a5a6;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* Preview / PDF content */
+#feedback-preview {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #000000; 
+     /* ثابت تقريبًا على عرض A4 */
+
+}
+
+#feedback-preview h3 {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+#feedback-preview p {
+  margin: 4px 0;
+}
+
+#feedback-preview ul {
+  margin: 4px 0 8px 18px;
+  padding: 0;
+}
+
+#feedback-preview li {
+  margin-bottom: 4px;
+}
+
+.header-line {
+  font-weight: 800;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.small-muted {
+  font-size: 12px;
+  color: #000000; 
+
+}
+
+.signature {
+  margin-top: 20px;
+}
+.pdf-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pdf-title {
+  font-size: 11px;
+}
+
+.logo-pdf {
+  height: 30px;       /* تقدر تكبّره/تصغّره */
+  object-fit: contain;
+}
+.site-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin: 10px 0 20px;
+}

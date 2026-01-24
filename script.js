@@ -249,7 +249,47 @@ const coursesConfig = {
     "Session 16: Final project — students design and start their own Unity mini-game.",
     "Session 17: Final project polish, debugging, UI, presentation, and course recap."
   ]
+},
+"291": {
+  courseName: "291 – Game Design",
+  covered: [
+    "Session 1: Game Types & Action Games — Introduction to main game genres (Action, Adventure, Puzzle, Racing, RPG, Simulation, Sports, Strategy). Students discuss favorite games, analyze genres, and work on a basic shooting game. Core concepts: player/enemy logic, variables, HP, movement, shooting, win/lose conditions, and basic game structure.",
+
+    "Session 2: Action Games & Game Balancing — Deep dive into action subgenres (Shooter, Platformer, Survival, Fighting, Rhythm, Action-Adventure). Introduction to game balancing and difficulty design (casual vs hardcore). Students adjust gameplay variables (HP, damage, fire rate, speed) and add a shield/spawner enemy. Focus on testing, iteration, and player experience.",
+
+    "Session 3: Puzzle Games — Exploration of puzzle genres (Action-Puzzle, Memory, Hidden Object, Physics-Puzzle, Tile-Matching, Traditional). Students build a full memory game with scoring system, streak logic, timer, stars, levels, feedback systems, and win/lose screens. Focus on logic design and progression systems.",
+
+    "Session 4: Strategy Games — Introduction to strategy genres (RTS, MOBA, Tower Defense, Turn-Based, 4X, Artillery). Students build a tower-defense style game with tanks, enemies, ammo systems, coins, upgrades, waves, economy systems, and progression mechanics.",
+
+    "Session 5: Sports Games & eSports — Understanding sports games and eSports concepts. Students develop a running/hurdling game using parallax backgrounds, alternating key mechanics, speed systems, obstacles, cheating prevention, and visual speed indicators. Focus on mechanics, fairness, and player control systems.",
+
+    "Session 6: Adventure Games & Own Project — Introduction to adventure game genres (Point-and-Click, Visual Novel, Interactive Book, Cinematic, Text-Based). Focus on storytelling, narrative design, choices, NPC interaction, inventory systems, and mystery design. Students work on individual adventure game projects.",
+
+    "Session 7: Game Analysis (Pong) — Analytical breakdown of Pong as a classic game: mechanics, rules, scoring, win/lose states, prototype/MVP concepts. Students redesign and improve Pong by adding AI, obstacles, power-ups, speed systems, and new mechanics. Focus on game analysis and iterative design."
+  ],
+  next: [
+    "Session 8: Simulation — Introduction to simulation vs arcade games. Physics-based spaceship simulation with momentum, thrust, deceleration, rotation, and immersive interaction design concepts.",
+
+    "Session 9: Developing the Simulation — Expansion into a multiplayer simulation-based shooter game. Two-player systems, rounds, lives, scoring, bullets, competition mechanics, and power-up systems.",
+
+    "Session 10: Game Design Basics — Core game design principles: Player/Avatar, Aim, Objectives, Rules, Obstacles, Conflict, Win State, Fail State, Feedback Systems, Progression Systems. Understanding games as structured systems.",
+
+    "Session 11: Player Experience (UX in Games) — Understanding player emotions, engagement, motivation, flow, frustration curves, and player psychology.",
+
+    "Session 12: Level Design Principles — Spatial design, difficulty curves, pacing, challenge distribution, guidance systems, and player navigation design.",
+
+    "Session 13: Narrative Design — Story structures in games, branching narratives, player choices, consequences, emotional design, and storytelling systems.",
+
+    "Session 14: Reward Systems & Progression — Rewards, leveling systems, unlockables, achievements, feedback loops, motivation cycles, and retention design.",
+
+    "Session 15: Testing & Balancing — Playtesting methods, balancing techniques, bug fixing, difficulty tuning, and quality assurance principles.",
+
+    "Session 16: Game Project Development — Students work on a structured final game project applying design, mechanics, balance, narrative, and UX principles.",
+
+    "Session 17: Final Project Presentation — Final game presentation, analysis, peer feedback, reflection, and evaluation of design decisions and learning outcomes."
+  ]
 }
+
 
 
 

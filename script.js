@@ -266,6 +266,33 @@ const coursesConfig = {
     "Session 6: Platform Switcher game (part 1): building Level 1 layout, creating two layers, organizing the scene, and setting up the camera.",
     "Session 7: Platform Switcher game (part 2): player movement with Rigidbody, jumping, and implementing the layer-switch mechanic using coroutines."
   ],
+  // 422 – Unity Advanced
+"422": {
+  courseName: "422 – Unity Advanced",
+  covered: [
+    "Session 1–2: Fall Down hyper-casual game. Students created a 3D endless falling game in Unity using prefabs, rigidbody physics, procedural platform generation, random bad platforms, camera parenting and C# scripts for rotating cylinders and player movement.",
+
+    "Session 3–4: Advanced Fall Down features and mobile adaptation. Students added skyboxes, finish platforms, level systems, collision handling, UI with TextMeshPro, best-level tracking, scene management, mobile touch controls and Android build preparation.",
+
+    "Session 5–6: 3D Brick Breaker game. Students built a 3D brick breaker game with player movement using mouse coordinates, physics materials, bouncing ball logic, randomized or array-based block colors, destructible blocks, multiple levels, UI texts and generated block systems.",
+
+    "Session 7–8: Hexagon mobile game. Students developed a 2D reflex-based game with desktop and mobile controls, rotating movement around a center object, shrinking hexagons, prefab spawning systems, timers, rotating cameras and Android APK exporting.",
+
+    "Session 9–10: Bricks and Balls game. Students started building a 2D Brick and Ball style game using physics materials, projectile shooting systems, coroutines, aiming mechanics, ammo management, block health systems and dynamic UI elements."
+  ],
+
+  next: [
+    "Session 11–12: Advanced Bricks and Balls mechanics. Students will continue the project by generating blocks dynamically, adding score systems, improving collision handling and polishing gameplay feedback.",
+
+    "Session 13–14: Game polish and optimization. Upcoming lessons will focus on particles, sound effects, animations, improved UI systems, scene transitions and performance optimization for mobile devices.",
+
+    "Session 15: Advanced Unity systems. Students will practice more complex C# scripting concepts such as arrays, coroutines, prefab management, procedural generation and reusable game systems.",
+
+    "Session 16: Independent game development project. Students will begin creating their own original Unity game using the mechanics and systems learned throughout the course.",
+
+    "Session 17: Final project presentation. Students will finalize, polish and present their complete Unity projects, demonstrating advanced gameplay mechanics, mobile support and polished game design."
+  ]
+},
   next: [
     "Session 8: Finish Platform Switcher (part 3) with obstacles, trampolines, teleporters, coins, and Game Over logic.",
     "Session 9: Start Race game — build track, add a car with physics, and create a follow camera.",

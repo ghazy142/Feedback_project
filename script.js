@@ -99,6 +99,33 @@ const coursesConfig = {
       "Session 17: Final project lesson – students designed their own advanced Blox game, typically using lists and/or text handling plus everything they had learned throughout the semester."
     ]
   },
+  // 211 – Game Design Basics
+"211": {
+  courseName: "211 – Game Design Basics",
+  covered: [
+    "Session 1–2: Introduction to game genres and action games. Students discussed major game genres and action game subcategories, then completed a half-finished shooting game using variables for player health, enemy health, damage, shooting speed and rate of fire.",
+    
+    "Session 3–4: Game balancing and puzzle games. Students learned how balancing affects game difficulty by adjusting gameplay variables, testing each other's games and adding enemy spawners and shields. Later they explored puzzle game genres and created a memory game using streaks, timers, points and monster matching logic.",
+
+    "Session 5: Strategy and tower defense games. Students explored strategy game categories (RTS, tower defense, MOBA, turn-based strategy) and completed a tower-defense style game with upgradeable tanks, coins, enemy waves and projectile systems.",
+
+    "Session 6: Sports games and parallax effects. Students learned about sports and eSports games, then created a hurdling/running game using alternating key controls, speed variables, jumping mechanics, live costumes and parallax scrolling backgrounds.",
+
+    "Session 7: Adventure games and storytelling. Students discussed adventure game subgenres and began designing their own story-driven mystery or exploration games with NPCs, inventory systems, hidden objects and branching interactions."
+  ],
+
+  next: [
+    "Session 8: Game analysis and Pong recreation. Students will analyze classic game design principles by recreating and improving the classic Pong game while discussing gameplay mechanics and player feedback.",
+
+    "Session 9–10: Racing and simulation games. Students will explore racing game mechanics, physics and controls while creating vehicle-based games with acceleration, obstacles and timing systems.",
+
+    "Session 11–12: RPG systems and progression. Upcoming lessons will introduce role-playing game mechanics such as character progression, health systems, abilities, quests and enemy encounters.",
+
+    "Session 13–15: Advanced game design projects. Students will combine genres and mechanics to create larger games with improved balancing, user interfaces, sound effects and more polished gameplay.",
+
+    "Session 16–17: Final game project and presentation. Students will design, polish and present their own complete game project using the game design concepts, mechanics and programming techniques learned throughout the semester."
+  ]
+},
 
   // 221 – Blox Advanced (Lists & Cloning 2)
   "221": {

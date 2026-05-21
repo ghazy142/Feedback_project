@@ -99,9 +99,9 @@ const coursesConfig = {
       "Session 17: Final project lesson – students designed their own advanced Blox game, typically using lists and/or text handling plus everything they had learned throughout the semester."
     ]
   },
-  // 211 – Game Design Basics
+  // 211 - Blox Advanced normal 1
 "211": {
-  courseName: "211 – Game Design Basics",
+  courseName: "211 - Blox Advanced normal 1",
   covered: [
     "Session 1–2: Introduction to game genres and action games. Students discussed major game genres and action game subcategories, then completed a half-finished shooting game using variables for player health, enemy health, damage, shooting speed and rate of fire.",
     

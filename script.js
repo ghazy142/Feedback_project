@@ -303,6 +303,19 @@ const coursesConfig = {
     "Session 6: Platform Switcher game (part 1): building Level 1 layout, creating two layers, organizing the scene, and setting up the camera.",
     "Session 7: Platform Switcher game (part 2): player movement with Rigidbody, jumping, and implementing the layer-switch mechanic using coroutines."
   ],
+
+  next: [
+    "Session 8: Finish Platform Switcher (part 3) with obstacles, trampolines, teleporters, coins, and Game Over logic.",
+    "Session 9: Start Race game — build track, add a car with physics, and create a follow camera.",
+    "Session 10–11: Add GUI timer, lap time, speed indicator, and refine race logic with triggers.",
+    "Session 12: Start FPS labyrinth — FPSController setup, maze layout, lighting, and finish point.",
+    "Session 13: Add invisible walls, pressure plate + door, and multi-level scene switching.",
+    "Session 14–15: Mobile game — Android setup, touch controls, UI buttons, and obstacles.",
+    "Session 16: Final project — students design and start their own Unity mini-game.",
+    "Session 17: Final project polish, debugging, UI, presentation, and course recap."
+  ]
+},
+
   // 422 – Unity Advanced
 "422": {
   courseName: "422 – Unity Advanced",
@@ -330,17 +343,8 @@ const coursesConfig = {
     "Session 17: Final project presentation. Students will finalize, polish and present their complete Unity projects, demonstrating advanced gameplay mechanics, mobile support and polished game design."
   ]
 },
-  next: [
-    "Session 8: Finish Platform Switcher (part 3) with obstacles, trampolines, teleporters, coins, and Game Over logic.",
-    "Session 9: Start Race game — build track, add a car with physics, and create a follow camera.",
-    "Session 10–11: Add GUI timer, lap time, speed indicator, and refine race logic with triggers.",
-    "Session 12: Start FPS labyrinth — FPSController setup, maze layout, lighting, and finish point.",
-    "Session 13: Add invisible walls, pressure plate + door, and multi-level scene switching.",
-    "Session 14–15: Mobile game — Android setup, touch controls, UI buttons, and obstacles.",
-    "Session 16: Final project — students design and start their own Unity mini-game.",
-    "Session 17: Final project polish, debugging, UI, presentation, and course recap."
-  ]
-},
+
+
 "291": {
   courseName: "291 – Game Design",
   covered: [

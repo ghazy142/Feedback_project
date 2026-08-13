@@ -99,33 +99,6 @@ const coursesConfig = {
       "Session 17: Final project lesson – students designed their own advanced Blox game, typically using lists and/or text handling plus everything they had learned throughout the semester."
     ]
   },
-  // 211 - Blox Advanced normal 1
-"211": {
-  courseName: "211 - Blox Advanced normal 1",
-  covered: [
-    "Session 1–2: Introduction to game genres and action games. Students discussed major game genres and action game subcategories, then completed a half-finished shooting game using variables for player health, enemy health, damage, shooting speed and rate of fire.",
-    
-    "Session 3–4: Game balancing and puzzle games. Students learned how balancing affects game difficulty by adjusting gameplay variables, testing each other's games and adding enemy spawners and shields. Later they explored puzzle game genres and created a memory game using streaks, timers, points and monster matching logic.",
-
-    "Session 5: Strategy and tower defense games. Students explored strategy game categories (RTS, tower defense, MOBA, turn-based strategy) and completed a tower-defense style game with upgradeable tanks, coins, enemy waves and projectile systems.",
-
-    "Session 6: Sports games and parallax effects. Students learned about sports and eSports games, then created a hurdling/running game using alternating key controls, speed variables, jumping mechanics, live costumes and parallax scrolling backgrounds.",
-
-    "Session 7: Adventure games and storytelling. Students discussed adventure game subgenres and began designing their own story-driven mystery or exploration games with NPCs, inventory systems, hidden objects and branching interactions."
-  ],
-
-  next: [
-    "Session 8: Game analysis and Pong recreation. Students will analyze classic game design principles by recreating and improving the classic Pong game while discussing gameplay mechanics and player feedback.",
-
-    "Session 9–10: Racing and simulation games. Students will explore racing game mechanics, physics and controls while creating vehicle-based games with acceleration, obstacles and timing systems.",
-
-    "Session 11–12: RPG systems and progression. Upcoming lessons will introduce role-playing game mechanics such as character progression, health systems, abilities, quests and enemy encounters.",
-
-    "Session 13–15: Advanced game design projects. Students will combine genres and mechanics to create larger games with improved balancing, user interfaces, sound effects and more polished gameplay.",
-
-    "Session 16–17: Final game project and presentation. Students will design, polish and present their own complete game project using the game design concepts, mechanics and programming techniques learned throughout the semester."
-  ]
-},
 
   // 221 – Blox Advanced (Lists & Cloning 2)
   "221": {
@@ -191,43 +164,6 @@ const coursesConfig = {
       "Session 16–17: Escape room project (part 1–2). Students designed and implemented a text-based escape room game, using conditions, loops, lists and functions to create branching stories, choices and multiple endings."
     ]
   },
-  // 432 – Python Advanced
-"432": {
-  courseName: "432 – Python Advanced",
-  covered: [
-    "Session 1: Functions in Python. Students learned how to create and use functions, work with parameters and arguments, default values, return statements and solve practical problems such as prime number checking, triangle validation and fuel consumption converters.",
-
-    "Session 2: Recursive functions. Students practiced recursion through factorial calculations, Fibonacci sequence generation, harmonic sums, recursive power calculations, recursive list summation, Caesar cipher encryption and Pascal triangle generation.",
-
-    "Session 3: Packages and modules. Students explored Python modules such as math and random, installed external packages using pip, created data visualizations with matplotlib and developed projects like guessing games, BMI calculators and random statistics charts.",
-
-    "Session 4: Yield, break and advanced practice. Students learned generator functions using yield, loop control with break, random shopping simulations, lottery systems, rock-paper-scissors games and data visualization basics.",
-
-    "Session 5: Matrices and multidimensional data. Students created and manipulated matrices, accessed rows and columns, generated random matrices, sorted matrix data and solved real-world style scheduling and magic square tasks.",
-
-    "Session 6: List comprehension and multidimensional matrices. Students practiced advanced list and matrix generation, taxation systems, temperature analysis with numpy, multidimensional hotel occupancy systems and 3D matrix visualization concepts.",
-
-    "Session 7: Advanced modules and packages. Students created custom Python packages and modules, worked with datetime and pendulum libraries, handled dates and timezones, generated matrices with reusable functions and solved systems of equations using numpy.",
-
-    "Session 8: Practice lesson – Sudoku solver project. Students developed a full Sudoku solver using matrices, recursive backtracking algorithms, validation systems and board visualization functions.",
-
-    "Session 9: Number systems and bitwise operators. Students learned binary, octal and hexadecimal systems, practiced bitwise operations (&, |, ^, ~, <<, >>), number system conversions and logical binary problem solving."
-  ],
-
-  next: [
-    "Session 10: Advanced Python problem solving. Students will continue practicing algorithmic thinking and optimize previously created recursive and matrix-based solutions.",
-
-    "Session 11: Data processing and visualization. Upcoming lessons will focus more deeply on numpy, matplotlib and handling larger datasets with Python.",
-
-    "Session 12: Object-oriented programming introduction. Students will begin learning classes, objects, constructors and reusable object-oriented design principles.",
-
-    "Session 13: Advanced project development. Students will combine recursion, matrices, modules and object-oriented programming into larger real-world Python applications.",
-
-    "Session 14–15: Final Python project. Students will design and build a complete advanced Python project independently while applying all semester concepts.",
-
-    "Session 16: Final presentation and review. Students will present their projects, explain their algorithms and review advanced Python concepts learned during the course."
-  ]
-},
 // 112 – Digital Discovery Basic Normal 2
 "112": {
   courseName: "112 – Digital Discovery Basic Normal 2",
@@ -303,7 +239,6 @@ const coursesConfig = {
     "Session 6: Platform Switcher game (part 1): building Level 1 layout, creating two layers, organizing the scene, and setting up the camera.",
     "Session 7: Platform Switcher game (part 2): player movement with Rigidbody, jumping, and implementing the layer-switch mechanic using coroutines."
   ],
-
   next: [
     "Session 8: Finish Platform Switcher (part 3) with obstacles, trampolines, teleporters, coins, and Game Over logic.",
     "Session 9: Start Race game — build track, add a car with physics, and create a follow camera.",
@@ -315,36 +250,27 @@ const coursesConfig = {
     "Session 17: Final project polish, debugging, UI, presentation, and course recap."
   ]
 },
-
-  // 422 – Unity Advanced
-"422": {
-  courseName: "422 – Unity Advanced",
-  covered: [
-    "Session 1–2: Fall Down hyper-casual game. Students created a 3D endless falling game in Unity using prefabs, rigidbody physics, procedural platform generation, random bad platforms, camera parenting and C# scripts for rotating cylinders and player movement.",
-
-    "Session 3–4: Advanced Fall Down features and mobile adaptation. Students added skyboxes, finish platforms, level systems, collision handling, UI with TextMeshPro, best-level tracking, scene management, mobile touch controls and Android build preparation.",
-
-    "Session 5–6: 3D Brick Breaker game. Students built a 3D brick breaker game with player movement using mouse coordinates, physics materials, bouncing ball logic, randomized or array-based block colors, destructible blocks, multiple levels, UI texts and generated block systems.",
-
-    "Session 7–8: Hexagon mobile game. Students developed a 2D reflex-based game with desktop and mobile controls, rotating movement around a center object, shrinking hexagons, prefab spawning systems, timers, rotating cameras and Android APK exporting.",
-
-    "Session 9–10: Bricks and Balls game. Students started building a 2D Brick and Ball style game using physics materials, projectile shooting systems, coroutines, aiming mechanics, ammo management, block health systems and dynamic UI elements."
-  ],
-
-  next: [
-    "Session 11–12: Advanced Bricks and Balls mechanics. Students will continue the project by generating blocks dynamically, adding score systems, improving collision handling and polishing gameplay feedback.",
-
-    "Session 13–14: Game polish and optimization. Upcoming lessons will focus on particles, sound effects, animations, improved UI systems, scene transitions and performance optimization for mobile devices.",
-
-    "Session 15: Advanced Unity systems. Students will practice more complex C# scripting concepts such as arrays, coroutines, prefab management, procedural generation and reusable game systems.",
-
-    "Session 16: Independent game development project. Students will begin creating their own original Unity game using the mechanics and systems learned throughout the course.",
-
-    "Session 17: Final project presentation. Students will finalize, polish and present their complete Unity projects, demonstrating advanced gameplay mechanics, mobile support and polished game design."
-  ]
-},
-
-
+ "423": {
+    "courseName": "423 – Unity Master",
+    "covered": [
+      "Session 1–3: Color Crasher game — creating a 3D game with a colored Player, matching-color obstacles, A/D and mobile touch controls, object pooling, obstacle spawning, collision detection, game restart logic, collectible coins, UI, and preparing the game for Android.",
+      "Session 4: Git version control — introduction to Git and GitHub, creating repositories, Unity .gitignore, commits, branches, pull requests, merging, cloning repositories, and syncing projects through VS Code.",
+      "Session 5–6: Adventure game (part 1–2) — creating a 2D world with Tilemaps, Tile Palettes, backgrounds and a Player, then introducing Object-Oriented Programming with base classes and inherited properties such as Health, Strength, Intelligence, Agility, and Damage.",
+      "Session 7: Adventure game (part 3) — implementing Player movement and jumping with Rigidbody2D, camera following, class-based weapons, weapon prefabs, colliders, and sword animations.",
+      "Session 8: Adventure game (part 4) — completing weapon mechanics, adding SwordScript and enemy interactions, creating different enemy types, enemy spawning, multiple levels, scene switching, and applying OOP concepts."
+    ],
+    "next": [
+      "Session 9: Real-Time Strategy game (part 1) — introduction to NavMesh and creating the basic RTS environment and unit selection/movement system.",
+      "Session 10: Real-Time Strategy game (part 2) — creating Ally and Enemy units, NavMesh Agents, unit animations, movement, targeting, attacking, enemy AI, and unit combat.",
+      "Session 11: Real-Time Strategy game (part 3) — adding game UI for Gold and unit counters, unit spawning and purchasing, resource management, background music, attack sounds, and additional RTS improvements.",
+      "Session 12: Two Player Fighter game (part 1) — creating two playable characters, movement, attacks, health, animations, and two-player keyboard controls.",
+      "Session 13: Two Player Fighter game (part 2) — using Unity's Input Manager, configuring player-specific controls, finishing combat mechanics, health and damage systems, rounds, power-ups, and support for different input devices.",
+      "Session 14: FPS game (part 1) — starting a four-session FPS shooter project by creating the room, pistol, player movement, aiming, and the basic FPS gameplay structure.",
+      "Session 15: FPS game (part 2) — implementing the shooting mechanics, bullets/projectiles, weapon behavior, and shooting interactions.",
+      "Session 16: FPS game (part 3) — creating monsters/enemies, enemy spawning, enemy movement toward the player, health and damage interactions, and shooting enemies.",
+      "Session 17: FPS game (part 4) — finishing the FPS project, completing the enemy and shooting systems, polishing the gameplay, testing the final project, and course recap."
+    ]
+  },
 "291": {
   courseName: "291 – Game Design",
   covered: [

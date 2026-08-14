@@ -251,15 +251,15 @@ const coursesConfig = {
   ]
 },
  "423": {
-    "courseName": "423 – Unity Master",
-    "covered": [
+    courseName: "423 – Unity Master",
+    covered: [
       "Session 1–3: Color Crasher game — creating a 3D game with a colored Player, matching-color obstacles, A/D and mobile touch controls, object pooling, obstacle spawning, collision detection, game restart logic, collectible coins, UI, and preparing the game for Android.",
       "Session 4: Git version control — introduction to Git and GitHub, creating repositories, Unity .gitignore, commits, branches, pull requests, merging, cloning repositories, and syncing projects through VS Code.",
       "Session 5–6: Adventure game (part 1–2) — creating a 2D world with Tilemaps, Tile Palettes, backgrounds and a Player, then introducing Object-Oriented Programming with base classes and inherited properties such as Health, Strength, Intelligence, Agility, and Damage.",
       "Session 7: Adventure game (part 3) — implementing Player movement and jumping with Rigidbody2D, camera following, class-based weapons, weapon prefabs, colliders, and sword animations.",
       "Session 8: Adventure game (part 4) — completing weapon mechanics, adding SwordScript and enemy interactions, creating different enemy types, enemy spawning, multiple levels, scene switching, and applying OOP concepts."
     ],
-    "next": [
+    next: [
       "Session 9: Real-Time Strategy game (part 1) — introduction to NavMesh and creating the basic RTS environment and unit selection/movement system.",
       "Session 10: Real-Time Strategy game (part 2) — creating Ally and Enemy units, NavMesh Agents, unit animations, movement, targeting, attacking, enemy AI, and unit combat.",
       "Session 11: Real-Time Strategy game (part 3) — adding game UI for Gold and unit counters, unit spawning and purchasing, resource management, background music, attack sounds, and additional RTS improvements.",

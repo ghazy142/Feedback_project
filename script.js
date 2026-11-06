@@ -125,7 +125,14 @@ const coursesConfig = {
       "Session 7: Logical and bitwise operators. Students worked with logical expressions, bit operations and dictionary data, and drew a prime number spiral with Turtle.",
       "Session 8: Functions in depth. Students used default and keyword arguments, None, variable scope and generators to build a Dungeon Battle game."
     ],
-    next: []
+    next: [
+      "Session 9: Exceptions. Students will make their Dungeon Battle game crash-proof using the exception hierarchy, multiple except branches and raising their own exceptions.",
+      "Session 10: Strings and lists in depth. Students will encode and decode secret messages using escape sequences, slicing, string methods and list copying.",
+      "Session 11: Files and CSV. Students will write, read and combine text files, then analyse a CSV file of movie data.",
+      "Session 12: Python fundamentals and recursion. Students will explore tricky details of Python such as naming rules, PEP 8, integer division and float accuracy, and write recursive functions.",
+      "Session 13–14: Mock exams. Students will take two timed practice exams in PCEP style, review their mistakes and practise their weakest topics.",
+      "Session 15–17: Minesweeper project. Students will build a complete Minesweeper game with matrices, recursion and Pygame, then add difficulty levels, a timer and a high score table saved to a file."
+    ]
   },
 
   // 101 – Digital Discovery

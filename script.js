@@ -59,6 +59,24 @@ const coursesConfig = {
     ]
   },
 
+  // DI-171 – Digital Intelligence
+  "DI-171": {
+    courseName: "171 – Digital Intelligence",
+    covered: [
+      "Session 1–2: Introduction to Scoolcode. Students learned about actors and movement, then built a magic spellbook that draws shapes with the pen tool and repeat loops.",
+      "Session 3–4: Escape the Moving Maze and Powering the Space Station. Students built games with keyboard controls, moving obstacles, collision detection and scene changes.",
+      "Session 5–7: Generative AI storytelling. Students used AI to create their own story, generated an original visual scene from it and turned the story into a one-page comic.",
+      "Session 8: Sail the Seal. Students built a game where a seal jumps between ice floes to catch fish, using while loops and the wait until command."
+    ],
+    next: [
+      "Session 9–10: Variables and distances. Students will build a collecting game using variables and a space pinball-style game using distances and number comparisons.",
+      "Session 11: Wizard battle. Students will use two health variables to build a spell-casting battle game.",
+      "Session 12–13: 3D modeling in Tinkercad. Students will design a greenhouse tomato pot with a water tank and scanner, and code a support frame using variables and repeat blocks.",
+      "Session 14–15: Logical variables and number guessing. Students will build a button game with Boolean variables and the AND operator, and a number guessing game with text-to-speech AI blocks.",
+      "Session 16: Frog in the city. Students will build a road-crossing game with moving parallax backgrounds."
+    ]
+  },
+
   // 101 – Digital Discovery
   "101": {
     courseName: "101 – Digital Discovery",

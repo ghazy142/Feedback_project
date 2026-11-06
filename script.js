@@ -113,6 +113,21 @@ const coursesConfig = {
     ]
   },
 
+  // 433 – Python Master
+  "433": {
+    courseName: "433 – Python Master",
+    covered: [
+      "Session 1–2: Dictionaries. Students created and updated dictionaries, looped through keys, values and items, and used them to store and process data such as student scores.",
+      "Session 3: Error handling. Students validated user input and used try–except, else and finally to make their programs handle errors safely.",
+      "Session 4: Data types and operators. Students practiced number types, print formatting, arithmetic, comparison, identity and membership operators, operator precedence and nested conditions.",
+      "Session 5: Mutable and immutable types. Students compared lists, tuples, matrices and dictionaries, and explored how Python stores values in memory.",
+      "Session 6: Loops in depth. Students used while and for loops with break, continue and loop-else to solve problems such as finding prime numbers and checking passwords.",
+      "Session 7: Logical and bitwise operators. Students worked with logical expressions, bit operations and dictionary data, and drew a prime number spiral with Turtle.",
+      "Session 8: Functions in depth. Students used default and keyword arguments, None, variable scope and generators to build a Dungeon Battle game."
+    ],
+    next: []
+  },
+
   // 101 – Digital Discovery
   "101": {
     courseName: "101 – Digital Discovery",

@@ -41,6 +41,24 @@ const coursesConfig = {
     ]
   },
 
+  // DI-161 – Digital Intelligence
+  "DI-161": {
+    courseName: "161 – Digital Intelligence",
+    covered: [
+      "Session 1–2: Introduction to Scoolcode. Students learned about actors and movement, then programmed a cyclist through a city map using sequences, turns and repeat loops.",
+      "Session 3–4: Haunted Escape and Underwater Crystal Hunt. Students built two games using keyboard controls, conditions, scene changes, stamping, random positions and loops.",
+      "Session 5–7: Digital illustration campaign. Students created \"The Last Battery\" environmental campaign in Canva: a slogan and logo, a campaign character with stickers, and a final A3 poster.",
+      "Session 8: Ghost Buster. Students built a ghost-catching game and learned to use the distance between actors."
+    ],
+    next: [
+      "Session 9: Terraforming Mission. Students will use distances, number operations and Scoolcode's machine learning blocks in a terraforming game.",
+      "Session 10–11: Variables and questions. Students will build a raccoon collecting game using variables and a quiz game using the ask command.",
+      "Session 12–14: Generative AI picture book. Students will learn how generative AI works and how to write good prompts, then invent their own creature, write its story and turn it into a picture book with Canva AI.",
+      "Session 15: Save the Space Station. Students will build a two-player game where spaceships share fuel and tow a space station to Earth, using variables, distances and win/lose conditions.",
+      "Session 16: Robot hunting. Students will review what they learned this semester by building a space lab shooting game."
+    ]
+  },
+
   // 101 – Digital Discovery
   "101": {
     courseName: "101 – Digital Discovery",

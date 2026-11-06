@@ -77,6 +77,23 @@ const coursesConfig = {
     ]
   },
 
+  // DI-211 – Digital Intelligence
+  "DI-211": {
+    courseName: "211 – Digital Intelligence",
+    covered: [
+      "Session 1–2: Signals. Students learned how actors communicate using signals and built a traffic control game with the broadcast and wait command.",
+      "Session 3–4: Clones. Students built games with clones, such as popping water balls and collecting balloons, and were introduced to the while loop.",
+      "Session 5–6: Micro:bit smart greenhouse. Students programmed a Micro:bit to measure soil moisture, then expanded it to check light and temperature for a chosen plant.",
+      "Session 7–8: Firefighter Robot and local variables. Students built a firefighting game with water and fire clones, and a Witch collecting game using local variables."
+    ],
+    next: [
+      "Session 9–10: Practicing clones and signals. Students will build a space egg hatching game and a knights' jewel searching game.",
+      "Session 11–13: App Development with MIT App Inventor. Students will build a trash recycling mobile game with falling trash, finger dragging, scoring and increasing speed.",
+      "Session 14–15: Logical operators. Students will build a pushing game and a pothole-avoiding cycling game using logical operators, clones and variables.",
+      "Session 16: Making pairs. Students will build a game where they match pairs of candies."
+    ]
+  },
+
   // 101 – Digital Discovery
   "101": {
     courseName: "101 – Digital Discovery",

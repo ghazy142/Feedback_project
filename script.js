@@ -19,6 +19,28 @@ const coursesConfig = {
     ]
   },
 
+  // DI-111 – Digital Intelligence
+  "DI-111": {
+    courseName: "111 – Digital Intelligence",
+    covered: [
+      "Session 1–2: History of gadgets, hardware and software. Students practiced using the mouse and MS Paint, learned about input, output and storage devices, and started 10-finger typing.",
+      "Session 3: Introduction to programming. Students explored MyLogiscool, created their first Scoolcode project and programmed the Bee-bot robot.",
+      "Session 4–5: Personal data and online safety. Students learned what personal data is and how to stay safe online, built a 3D world in Kodu and made a Spy game in Scoolcode.",
+      "Session 6: History of programming and algorithms. Students wrote step-by-step algorithms and built a Coin Collector game in Kodu using if–then conditions.",
+      "Session 7: Quizzes. Students learned about quiz types and built a quiz game in Scoolcode using if–then–else.",
+      "Session 8: Passwords. Students learned what makes a strong password and created and encoded their own passwords."
+    ],
+    next: [
+      "Session 9: Cryptography. Students will encode and decode messages with secret codes such as Caesar, Morse and Braille, then solve a digital escape room.",
+      "Session 10–11: Robots and everyday robotics. Students will learn about robots, build a basketball robot game in Scoolcode and use loops to draw shapes.",
+      "Session 12: Visual communication. Students will learn about emojis, icons and logos, describe their favourite stories with emojis and design their own icons.",
+      "Session 13: Emotions. Students will talk about emotions, kindness and online bullying, and program the \"Cheer up Rexy\" game in Scoolcode.",
+      "Session 14: Storytelling. Students will build a Story Cubes program in Scoolcode and write their own short story.",
+      "Session 15: Animations. Students will draw their own character in MS Paint and animate it in a Scoolcode project.",
+      "Session 16: Fake news and urban legends. Students will learn how to spot fake news and build a Scoolcode game about bringing the true news to Earth."
+    ]
+  },
+
   // 101 – Digital Discovery
   "101": {
     courseName: "101 – Digital Discovery",

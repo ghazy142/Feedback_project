@@ -19,6 +19,25 @@ const coursesConfig = {
     ]
   },
 
+  // DI-110 – Digital Intelligence
+  "DI-110": {
+    courseName: "110 – Digital Intelligence",
+    covered: [
+      "Session 1–2: Getting to know each other. Students played team-building games and practiced using the mouse with fun online games.",
+      "Session 3: MyLogiscool and Bee-bot. Students logged in to MyLogiscool for the first time and gave the Bee-bot robot its first simple commands.",
+      "Session 4: Introduction to Kodu. Students explored the Kodu world-building tools and talked about passwords.",
+      "Session 5: Shapes. Students played a Bee-bot shape game and created drawings with online drawing tools.",
+      "Session 6: Basics of Kodu. Students made a small Kodu game about meeting friends and talked about staying safe online.",
+      "Session 7–8: Magic dice and the world of robotics. Students practiced the mouse with math games, played dice games with the Bee-bot and programmed robots online and offline."
+    ],
+    next: [
+      "Session 9–10: Bee-bot and Kodu challenges. Students will play a Bee-bot treasure hunt, make a Kodu game that senses the ground, and create their own Flappy Bird game.",
+      "Session 11–12: Internet and Bee-bot maps. Students will talk about the internet, build a football game in Kodu and design their own Bee-bot maps.",
+      "Session 13–14: Paint and Kodu. Students will draw a landscape in Paint, rebuild it in Kodu and create a Kodu collecting game.",
+      "Session 15–16: Paint, Bee-bot and Scoolcode. Students will copy Bee-bot movements into Paint drawings and design a background for a Scoolcode stamping game."
+    ]
+  },
+
   // DI-111 – Digital Intelligence
   "DI-111": {
     courseName: "111 – Digital Intelligence",

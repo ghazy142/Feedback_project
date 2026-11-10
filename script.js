@@ -60,6 +60,29 @@ const coursesConfig = {
     ]
   },
 
+  // DI-114 – Digital Intelligence
+  "DI-114": {
+    courseName: "114 – Digital Intelligence",
+    covered: [
+      "Session 1: Revision lesson. Students got to know each other again and practiced Scoolcode by building an Egg Catcher game.",
+      "Session 2–3: Languages and translation. Students learned about human and programming languages, practiced word processing and built a quiz and a number guessing game in Scoolcode.",
+      "Session 4: Digital numbers. Students learned binary numbers and logic gates, used spreadsheets and turned a micro:bit into a clock.",
+      "Session 5: Number sequences. Students discovered number patterns and the Fibonacci sequence, used spreadsheets and built a mental calculator game in Scoolcode.",
+      "Session 6: Digital colours and images. Students learned about resolution and RGB colour codes and built a colour sorting game in Scoolcode.",
+      "Session 7: Creatures. Students compared living and digital beings, created an animation in Canva and built a monster comparing game in Scoolcode.",
+      "Session 8: Project lesson. Students completed and presented their first project of the semester."
+    ],
+    next: [
+      "Session 9: Who are you online? Students will talk about personal data, cyberbullying and safe online communication, and build a Scoolcode game about protecting a princess from trolls.",
+      "Session 10: Networks. Students will learn about social networks and social media, and build a Scoolcode game about making friends.",
+      "Session 11–12: AI basics. Students will learn how AI generates images and text, try chatbots and write good prompts, and build Scoolcode projects about collecting data and saving prompts.",
+      "Session 13: Jobs of the future. Students will explore how AI is changing jobs and build an automatic garbage collector in Scoolcode.",
+      "Session 14: Digital product design. Students will learn what makes a good user experience and improve a Chicken Hunt game so it looks and works better.",
+      "Session 15: Accessibility. Students will learn about different barriers people face and build a Scoolcode game that helps an old witch.",
+      "Session 16: Life on another planet. Students will use AI tools and Scoolcode to start a colonization simulator game."
+    ]
+  },
+
   // DI-161 – Digital Intelligence
   "DI-161": {
     courseName: "161 – Digital Intelligence",

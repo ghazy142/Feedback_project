@@ -576,6 +576,51 @@ function setListContent(ulElement, items) {
 // COURSE SECTIONS
 // ============================================================
 
+// Reads "Session 3–4: text" -> { start: 3, end: 4, text: "text" }
+function parseSessionEntry(raw) {
+  const m = /^Sessions?\s+(\d+)(?:\s*[–-]\s*(\d+))?\s*:\s*/.exec(raw);
+  if (!m) return { start: null, end: null, text: raw };
+  const start = parseInt(m[1], 10);
+  const end = m[2] ? parseInt(m[2], 10) : start;
+  return { start, end, text: raw.slice(m[0].length) };
+}
+
+function sessionLabel(start, end) {
+  return start === end ? `Session ${start}` : `Session ${start}–${end}`;
+}
+
+// Some upcoming-lesson texts are written in the future tense ("Students will build…").
+// When those lessons move to "What We Covered", rewrite them in the past tense.
+const PAST_TENSE = {
+  add: "added", analyse: "analysed", animate: "animated", build: "built",
+  close: "closed", code: "coded", collect: "collected", combine: "combined",
+  copy: "copied", cover: "covered", create: "created", decode: "decoded",
+  deepen: "deepened", describe: "described", design: "designed", draw: "drew",
+  encode: "encoded", explore: "explored", focus: "focused", improve: "improved",
+  invent: "invented", learn: "learned", make: "made", play: "played",
+  practice: "practiced", practise: "practised", program: "programmed",
+  read: "read", rebuild: "rebuilt", review: "reviewed", solve: "solved",
+  start: "started", take: "took", talk: "talked", try: "tried", turn: "turned",
+  use: "used", write: "wrote"
+};
+
+function toPastTense(text) {
+  if (!/\bwill\b/.test(text)) return text;
+  return text
+    .replace(/\bUpcoming lessons will\b/g, "These lessons will")
+    .replace(
+      /(\bwill\s+|,\s+then\s+|,\s+and\s+|,\s+|\band\s+|\bthen\s+)([a-z]+)\b/g,
+      (match, before, word, offset, full) => {
+        const past = PAST_TENSE[word];
+        if (!past) return match;
+        // keep "to write", "how to spot" etc. as they are
+        if (/\bto\s+$/.test(full.slice(0, offset))) return match;
+        return before + past;
+      }
+    )
+    .replace(/\bwill\s+/g, "");
+}
+
 function applyCourseSections() {
   const code = courseSelect.value;
 
@@ -587,49 +632,54 @@ function applyCourseSections() {
     feedbackTypeSelect &&
     feedbackTypeSelect.value === "final";
 
-  const coveredArr =
-    Array.isArray(cfg.covered)
-      ? cfg.covered
-      : [];
+  const coveredArr = Array.isArray(cfg.covered) ? cfg.covered : [];
+  const nextArr = Array.isArray(cfg.next) ? cfg.next : [];
 
-  const nextArr =
-    Array.isArray(cfg.next)
-      ? cfg.next
-      : [];
+  const fromNum = parseInt(lessonsFromInput.value, 10);
+  const toNum = parseInt(lessonsToInput.value, 10);
 
-  if (isFinal) {
-
-    // FINAL
-    // Put covered + next under What We Covered
-
-    const combined =
-      coveredArr.concat(nextArr);
-
-    setListContent(
-      previewCovered,
-      combined
-    );
-
-    setListContent(
-      previewNext,
-      []
-    );
-
-  } else {
-
-    // MID
-    // Covered separately from What's Next
-
-    setListContent(
-      previewCovered,
-      coveredArr
-    );
-
-    setListContent(
-      previewNext,
-      nextArr
-    );
+  // No "Lessons To" yet -> show the course as written
+  if (!toNum) {
+    if (isFinal) {
+      setListContent(previewCovered, coveredArr.concat(nextArr));
+      setListContent(previewNext, []);
+    } else {
+      setListContent(previewCovered, coveredArr);
+      setListContent(previewNext, nextArr);
+    }
+    return;
   }
+
+  // Split every session by the lessons the student attended
+  const firstLesson = fromNum && fromNum <= toNum ? fromNum : 1;
+  const coveredOut = [];
+  const nextOut = [];
+
+  const entries = coveredArr
+    .map((raw) => ({ ...parseSessionEntry(raw), raw, wasCovered: true }))
+    .concat(nextArr.map((raw) => ({ ...parseSessionEntry(raw), raw, wasCovered: false })));
+
+  entries.forEach((e) => {
+    // Lines without a session number stay where they were written
+    if (e.start === null) {
+      (e.wasCovered ? coveredOut : nextOut).push(e.raw);
+      return;
+    }
+
+    const doneStart = Math.max(e.start, firstLesson);
+    const doneEnd = Math.min(e.end, toNum);
+    if (doneStart <= doneEnd) {
+      coveredOut.push(`${sessionLabel(doneStart, doneEnd)}: ${toPastTense(e.text)}`);
+    }
+
+    if (e.end > toNum) {
+      const restStart = Math.max(e.start, toNum + 1);
+      nextOut.push(`${sessionLabel(restStart, e.end)}: ${e.text}`);
+    }
+  });
+
+  setListContent(previewCovered, coveredOut);
+  setListContent(previewNext, isFinal ? [] : nextOut);
 }
 
 
@@ -729,13 +779,16 @@ function updatePreview() {
   // What's Next visibility
   // -------------------------
 
+  applyCourseSections();
+
   if (
     feedbackTypeSelect &&
     nextSection
   ) {
 
     if (
-      feedbackTypeSelect.value === "final"
+      feedbackTypeSelect.value === "final" ||
+      (previewNext && previewNext.children.length === 0)
     ) {
 
       nextSection.style.display =

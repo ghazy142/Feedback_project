@@ -630,7 +630,7 @@ const PAST_TENSE = {
   deepen: "deepened", describe: "described", design: "designed", draw: "drew",
   encode: "encoded", explore: "explored", finish: "finished", focus: "focused", improve: "improved",
   invent: "invented", learn: "learned", make: "made", play: "played",
-  practice: "practiced", practise: "practised", present: "presented", program: "programmed",
+  practice: "practiced", practise: "practised", prepare: "prepared", present: "presented", program: "programmed",
   read: "read", rebuild: "rebuilt", review: "reviewed", solve: "solved",
   start: "started", take: "took", talk: "talked", try: "tried", turn: "turned",
   use: "used", write: "wrote"

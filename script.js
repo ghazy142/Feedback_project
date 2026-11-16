@@ -180,6 +180,43 @@ const coursesConfig = {
     ]
   },
 
+  // 432 – Python Advanced
+"432": {
+  courseName: "432 – Python Advanced",
+  covered: [
+    "Session 1: Functions in Python. Students learned how to create and use functions, work with parameters and arguments, default values, return statements and solve practical problems such as prime number checking, triangle validation and fuel consumption converters.",
+
+    "Session 2: Recursive functions. Students practiced recursion through factorial calculations, Fibonacci sequence generation, harmonic sums, recursive power calculations, recursive list summation, Caesar cipher encryption and Pascal triangle generation.",
+
+    "Session 3: Packages and modules. Students explored Python modules such as math and random, installed external packages using pip, created data visualizations with matplotlib and developed projects like guessing games, BMI calculators and random statistics charts.",
+
+    "Session 4: Yield, break and advanced practice. Students learned generator functions using yield, loop control with break, random shopping simulations, lottery systems, rock-paper-scissors games and data visualization basics.",
+
+    "Session 5: Matrices and multidimensional data. Students created and manipulated matrices, accessed rows and columns, generated random matrices, sorted matrix data and solved real-world style scheduling and magic square tasks.",
+
+    "Session 6: List comprehension and multidimensional matrices. Students practiced advanced list and matrix generation, taxation systems, temperature analysis with numpy, multidimensional hotel occupancy systems and 3D matrix visualization concepts.",
+
+    "Session 7: Advanced modules and packages. Students created custom Python packages and modules, worked with datetime and pendulum libraries, handled dates and timezones, generated matrices with reusable functions and solved systems of equations using numpy.",
+
+    "Session 8: Practice lesson – Sudoku solver project. Students developed a full Sudoku solver using matrices, recursive backtracking algorithms, validation systems and board visualization functions.",
+
+    "Session 9: Number systems and bitwise operators. Students learned binary, octal and hexadecimal systems, practiced bitwise operations (&, |, ^, ~, <<, >>), number system conversions and logical binary problem solving."
+  ],
+
+  next: [
+    "Session 10: Advanced Python problem solving. Students will continue practicing algorithmic thinking and optimize previously created recursive and matrix-based solutions.",
+
+    "Session 11: Data processing and visualization. Upcoming lessons will focus more deeply on numpy, matplotlib and handling larger datasets with Python.",
+
+    "Session 12: Object-oriented programming introduction. Students will begin learning classes, objects, constructors and reusable object-oriented design principles.",
+
+    "Session 13: Advanced project development. Students will combine recursion, matrices, modules and object-oriented programming into larger real-world Python applications.",
+
+    "Session 14–15: Final Python project. Students will design and build a complete advanced Python project independently while applying all semester concepts.",
+
+    "Session 16: Final presentation and review. Students will present their projects, explain their algorithms and review advanced Python concepts learned during the course."
+  ]
+},
   // 433 – Python Master
   "433": {
     courseName: "433 – Python Master",
@@ -628,8 +665,8 @@ const PAST_TENSE = {
   close: "closed", code: "coded", collect: "collected", combine: "combined",
   copy: "copied", cover: "covered", create: "created", decode: "decoded",
   deepen: "deepened", describe: "described", design: "designed", draw: "drew",
-  encode: "encoded", explore: "explored", finish: "finished", focus: "focused", improve: "improved",
-  invent: "invented", learn: "learned", make: "made", play: "played",
+  begin: "began", continue: "continued", encode: "encoded", explain: "explained", explore: "explored", finish: "finished", focus: "focused", improve: "improved",
+  invent: "invented", learn: "learned", optimize: "optimized", make: "made", play: "played",
   practice: "practiced", practise: "practised", prepare: "prepared", present: "presented", program: "programmed",
   read: "read", rebuild: "rebuilt", review: "reviewed", solve: "solved",
   start: "started", take: "took", talk: "talked", try: "tried", turn: "turned",
@@ -637,9 +674,12 @@ const PAST_TENSE = {
 };
 
 function toPastTense(text) {
-  if (!/\bwill\b/.test(text)) return text;
-  return text
-    .replace(/\bUpcoming lessons will\b/g, "These lessons will")
+  const willAt = text.search(/\bwill\b/);
+  if (willAt === -1) return text;
+  // Only rewrite from "will" onwards, so the session title stays as it is
+  const head = text.slice(0, willAt).replace(/\bUpcoming lessons $/, "These lessons ");
+  const tail = text
+    .slice(willAt)
     .replace(
       /(\bwill\s+|,\s+then\s+|,\s+and\s+|,\s+|\band\s+|\bthen\s+)([a-z]+)\b/g,
       (match, before, word, offset, full) => {
@@ -651,6 +691,7 @@ function toPastTense(text) {
       }
     )
     .replace(/\bwill\s+/g, "");
+  return head + tail;
 }
 
 function applyCourseSections() {

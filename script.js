@@ -60,6 +60,28 @@ const coursesConfig = {
     ]
   },
 
+  // DI-112 – Digital Intelligence
+  "DI-112": {
+    courseName: "112 – Digital Intelligence",
+    covered: [
+      "Session 1: Revision lesson. Students got to know each other again and practiced Scoolcode by building the Operation Balloon Rescue game.",
+      "Session 2–3: Colours and pixels. Students learned how colours are mixed and what pixels are, used Paint, and built drawing and mirroring programs in Scoolcode.",
+      "Session 4: Games. Students learned about different game types and built a Sharks Eat Fish game in Scoolcode.",
+      "Session 5: Uploading and downloading. Students learned the difference between uploading, downloading and streaming, and used variables and their own costumes in a Collecting Witch game.",
+      "Session 6: Writing a letter. Students practiced text editing and emails, and built the Adam's Letters project in Scoolcode.",
+      "Session 7: Rules. Students talked about rules made by people and by nature, and practiced variables in the Wildfire in the Condo game.",
+      "Session 8: Digital travel. Students learned about positioning and practiced basic image editing."
+    ],
+    next: [
+      "Session 9: Navigation. Students will explore digital navigation with Google Maps and Google Earth, and build the Math Safari game in Scoolcode.",
+      "Session 10: Dimensions and space. Students will learn about 3D drawing and printing, use Paint 3D, and build the Save the Blue Planet game in Scoolcode.",
+      "Session 11–12: Films and presentations. Students will learn about film and video editing, create a Scoolcode animation, and prepare their own presentation.",
+      "Session 13: Vehicles. Students will explore electric and digital vehicles and build the Rival Delivery Drones game in Scoolcode.",
+      "Session 14–15: Collections and numbers. Students will practice handling data and using a calculator, learn about number systems and build the Food Storing Hamster game in Scoolcode.",
+      "Session 16: Project lesson and presentation. Students will finish their semester project and present it to the group."
+    ]
+  },
+
   // DI-113 – Digital Intelligence
   "DI-113": {
     courseName: "113 – Digital Intelligence",

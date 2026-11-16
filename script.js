@@ -60,6 +60,28 @@ const coursesConfig = {
     ]
   },
 
+  // DI-113 – Digital Intelligence
+  "DI-113": {
+    courseName: "113 – Digital Intelligence",
+    covered: [
+      "Session 1: Revision lesson. Students got to know each other again and practiced Scoolcode by building a Mosquito Chaser game.",
+      "Session 2: Parts of the computer. Students learned about the core computer parts and peripheral devices, and practiced timing in a Scoolcode game called Pop the Frog.",
+      "Session 3: Digital footprint. Students learned what a digital footprint and filter bubbles are, and built the Monster Vitamin game in Scoolcode.",
+      "Session 4–5: Hackers, the internet and sounds. Students learned the basics of cybersecurity and hacking, explored analog and digital sounds, and used logical variables in two Scoolcode games.",
+      "Session 6–7: Human and robot. Students explored how humans and robots interact, from wearable technology and digital medicine to bionics and cyborgs, and programmed imagiCharm and micro:bit.",
+      "Session 8: Project lesson. Students completed and presented their first project of the semester."
+    ],
+    next: [
+      "Session 9–10: Digital realities. Students will explore augmented and virtual reality, build an AR-themed Scoolcode game and try the CoSpaces Edu platform.",
+      "Session 11: E-sport. Students will learn about e-sport, contests and their risks, and build a Pong game in Scoolcode.",
+      "Session 12: Architecture. Students will learn how architecture has gone digital and build and program Lego models.",
+      "Session 13: Internet of Things. Students will explore smart homes, sensors and robots.",
+      "Session 14: Our environment. Students will talk about climate change and protecting the environment, and program robots in VEX VR.",
+      "Session 15: Transportation. Students will learn about ground, water and air transport, and use the camera in a Scoolcode project.",
+      "Session 16: Project lesson and presentation. Students will finish their semester project and present it to the group."
+    ]
+  },
+
   // DI-114 – Digital Intelligence
   "DI-114": {
     courseName: "114 – Digital Intelligence",
@@ -584,9 +606,9 @@ const PAST_TENSE = {
   close: "closed", code: "coded", collect: "collected", combine: "combined",
   copy: "copied", cover: "covered", create: "created", decode: "decoded",
   deepen: "deepened", describe: "described", design: "designed", draw: "drew",
-  encode: "encoded", explore: "explored", focus: "focused", improve: "improved",
+  encode: "encoded", explore: "explored", finish: "finished", focus: "focused", improve: "improved",
   invent: "invented", learn: "learned", make: "made", play: "played",
-  practice: "practiced", practise: "practised", program: "programmed",
+  practice: "practiced", practise: "practised", present: "presented", program: "programmed",
   read: "read", rebuild: "rebuilt", review: "reviewed", solve: "solved",
   start: "started", take: "took", talk: "talked", try: "tried", turn: "turned",
   use: "used", write: "wrote"

@@ -709,19 +709,8 @@ function applyCourseSections() {
   const nextArr = Array.isArray(cfg.next) ? cfg.next : [];
 
   const fromNum = parseInt(lessonsFromInput.value, 10);
-  const toNum = parseInt(lessonsToInput.value, 10);
-
-  // No "Lessons To" yet -> show the course as written
-  if (!toNum) {
-    if (isFinal) {
-      setListContent(previewCovered, coveredArr.concat(nextArr));
-      setListContent(previewNext, []);
-    } else {
-      setListContent(previewCovered, coveredArr);
-      setListContent(previewNext, nextArr);
-    }
-    return;
-  }
+  // No "Lessons To" yet -> use the usual range: mid-course = 1–8, final = 1–16
+  const toNum = parseInt(lessonsToInput.value, 10) || (isFinal ? 16 : 8);
 
   // Split every session by the lessons the student attended
   const firstLesson = fromNum && fromNum <= toNum ? fromNum : 1;

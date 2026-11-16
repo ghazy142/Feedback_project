@@ -154,7 +154,7 @@ const coursesConfig = {
       "Session 11: Files and CSV. Students will write, read and combine text files, then analyse a CSV file of movie data.",
       "Session 12: Python fundamentals and recursion. Students will explore tricky details of Python such as naming rules, PEP 8, integer division and float accuracy, and write recursive functions.",
       "Session 13–14: Mock exams. Students will take two timed practice exams in PCEP style, review their mistakes and practise their weakest topics.",
-      "Session 15–17: Minesweeper project. Students will build a complete Minesweeper game with matrices, recursion and Pygame, then add difficulty levels, a timer and a high score table saved to a file."
+      "Session 15–16: Minesweeper project. Students will build a complete Minesweeper game with matrices, recursion and Pygame, then add difficulty levels, a timer and a high score table saved to a file."
     ]
   },
 
@@ -184,8 +184,7 @@ const coursesConfig = {
       "Session 8–9: Passwords and cryptography. We talked about strong vs. weak passwords, tried creating safe passwords, and explored simple codes and ciphers (like substitution and basic encryption ideas).",
       "Session 10–11: Robots and everyday robotics. Students learned what robots are, where we see them in real life, and how sensors and simple programs help robots complete tasks.",
       "Session 12–14: Visual communication, emotions and storytelling. We discussed how images, icons and emojis communicate meaning, then used these ideas to plan small digital stories and scenarios.",
-      "Session 15–16: Animations and urban legends. Students created or analyzed simple animations and talked about fake information and urban legends online – how to question what we see or read.",
-      "Session 17: Project lesson and presentation – each student prepared a small project (drawing, Scoolcode project, or similar) and presented what they learned during the semester."
+      "Session 15–16: Animations and urban legends. Students created or analyzed simple animations and talked about fake information and urban legends online – how to question what we see or read. Project lesson and presentation – each student prepared a small project (drawing, Scoolcode project, or similar) and presented what they learned during the semester."
     ]
   },
 
@@ -201,8 +200,7 @@ const coursesConfig = {
       "Session 8: Mid-term project lesson – students combined everything learned so far (movement, pen, collisions, variables) to design a small custom game.",
       "Session 9–10: Save the Earth and quiz games. We practiced events, scoring and levels by building an eco-themed game and a quiz, including question/answer logic and feedback for correct/incorrect answers.",
       "Session 11–13: Variables in more depth. With balloon-shooting and aura of a wasp projects, students used multiple variables (score, lives, time, speed), practiced randomization and refined their use of if/else logic.",
-      "Session 15–16: Save the space station and robot-hunting games. These lessons focused on more advanced game logic: multiple actors, parallax or changing backdrops, timers, and slightly more complex conditions for win/lose states.",
-      "Session 17: Final project lesson – students chose or designed their own game and used all core concepts (events, movement, variables, conditions, drawing) to finish a complete project for the end of the semester."
+      "Session 15–16: Save the space station and robot-hunting games. These lessons focused on more advanced game logic: multiple actors, parallax or changing backdrops, timers, and slightly more complex conditions for win/lose states. Final project lesson – students chose or designed their own game and used all core concepts (events, movement, variables, conditions, drawing) to finish a complete project for the end of the semester."
     ]
   },
 
@@ -218,8 +216,7 @@ const coursesConfig = {
       "Session 8: Mid-term project lesson – each student chose a favorite idea from previous lessons and turned it into a small game or animation.",
       "Session 9–12: Variables and game mechanics. Through Save the Earth, wizard battles and a fire-extinguishing game, students used variables for score, health, remaining time and resource counters, and linked them to visual feedback in the game.",
       "Session 13–14: Logical variables and number guessing. Students used booleans (true/false) in conditions and built a number-guessing game where feedback depends on comparisons and logical checks.",
-      "Session 15-16: Cat in the city – a more complex Blox game with moving backgrounds, obstacles and combined mechanics.",
-      "Session 17: Final project lesson – students created or polished a project of their choice using all their Blox knowledge (movement, variables, logic, sensors where applicable)."
+      "Session 15-16: Cat in the city – a more complex Blox game with moving backgrounds, obstacles and combined mechanics. Final project lesson – students created or polished a project of their choice using all their Blox knowledge (movement, variables, logic, sensors where applicable)."
     ]
   },
 
@@ -234,8 +231,7 @@ const coursesConfig = {
     next: [
       "Session 9–11: Text handling games – quiz, typing and anagram. These lessons developed string manipulation and list skills by building quiz games, typing practice and anagram puzzles that check and compare text.",
       "Session 12–13: Slime is hungry and squirrel jumping games. Students used lists together with collisions and physics-like movement to manage items (food, branches) and player progress.",
-      "Session 14–16: Hangman, flying games and fish memory. These games combined lists, letters and positions: checking guesses, revealing letters, managing collected objects and building more complex win/lose logic.",
-      "Session 17: Final project lesson – students designed their own advanced Blox game, typically using lists and/or text handling plus everything they had learned throughout the semester."
+      "Session 14–16: Hangman, flying games and fish memory. These games combined lists, letters and positions: checking guesses, revealing letters, managing collected objects and building more complex win/lose logic. Final project lesson – students designed their own advanced Blox game, typically using lists and/or text handling plus everything they had learned throughout the semester."
     ]
   },
 
@@ -250,8 +246,7 @@ const coursesConfig = {
     next: [
       "Session 9–12: Lists and memory games. They were introduced to lists again with more depth, then used them to create memory games with fish and other items, tracking revealed pairs and cleared cards.",
       "Session 13–15: Firefighting, typing and anagram games. These lessons mixed fast reactions with string and list manipulation, helping students practice accuracy and algorithmic thinking.",
-      "Session 16: Space Invaders – they created a shooter game with moving enemy rows, bullets and win/lose backgrounds, practicing variables for speed and delay.",
-      "Session 17: Final project lesson – students combined lists, cloning, signals and their favorite mechanics into one semester-closing project."
+      "Session 16: Space Invaders – they created a shooter game with moving enemy rows, bullets and win/lose backgrounds, practicing variables for speed and delay. Final project lesson – students combined lists, cloning, signals and their favorite mechanics into one semester-closing project."
     ]
   },
 
@@ -267,8 +262,7 @@ const coursesConfig = {
       "Session 8: Project lesson – students built a full game in Mix using what they had learned so far.",
       "Session 9–11: Functions and parameters. They started writing their own functions, called them from different parts of the code, and later extended them with parameters to reuse logic in multiple situations.",
       "Session 12–13: Functions with return values and physics. Students used functions that return values, connected them to simple physics (movement, forces, collisions) and reinforced structured code design.",
-      "Session 14–16: Function-based mini games such as simple function-driven games, Floating fish and a spaceship rescue mission. They practiced splitting big problems into smaller functions and coordinating multiple actors using shared logic.",
-      "Session 17: Final project lesson – students created a more complex Mix game from scratch or significantly upgraded an earlier one, using functions, lists, cloning and physics."
+      "Session 14–16: Function-based mini games such as simple function-driven games, Floating fish and a spaceship rescue mission. They practiced splitting big problems into smaller functions and coordinating multiple actors using shared logic. Final project lesson – students created a more complex Mix game from scratch or significantly upgraded an earlier one, using functions, lists, cloning and physics."
     ]
   },
 
@@ -283,8 +277,7 @@ const coursesConfig = {
     next: [
       "Session 9–11: Lists and linear search. They wrote functions that search through lists, first in simple scenarios and then in drag-and-drop style games that check correctness based on list content.",
       "Session 12–14: Sorting algorithms. Students implemented basic swap sort and bubble sort visually, comparing elements, swapping them and watching step-by-step how a list becomes ordered.",
-      "Session 15–16: Dino Run game. They built a runner-style game with increasing difficulty, combining physics, collisions, score tracking and the algorithms learned earlier to manage speed and game state.",
-      "Session 17: Final project lesson – students created a more complex Mix game from scratch or significantly upgraded an earlier one, using functions, lists, cloning and physics."
+      "Session 15–16: Dino Run game. They built a runner-style game with increasing difficulty, combining physics, collisions, score tracking and the algorithms learned earlier to manage speed and game state. Final project lesson – students created a more complex Mix game from scratch or significantly upgraded an earlier one, using functions, lists, cloning and physics."
     ]
   },
 
@@ -300,7 +293,7 @@ const coursesConfig = {
       "Session 8–10: Combined practice with variables and statements plus a dedicated practice lesson. These sessions reinforced everything learned so far, with small tasks mixing input, conditions, loops and lists.",
       "Session 11–13: Nested loops, Turtle graphics and more list practice. Students used nested loops to draw patterns with Turtle and solved more complex list problems step by step.",
       "Session 14–15: Practice and semester summary. They completed a set of integrated exercises and then summarized the most important Python concepts (types, variables, control flow, lists and functions).",
-      "Session 16–17: Escape room project (part 1–2). Students designed and implemented a text-based escape room game, using conditions, loops, lists and functions to create branching stories, choices and multiple endings."
+      "Session 16: Escape room project. Students designed and implemented a text-based escape room game, using conditions, loops, lists and functions to create branching stories, choices and multiple endings."
     ]
   },
 
@@ -320,7 +313,7 @@ const coursesConfig = {
       "Session 11–12: Motion picture and presentation. Upcoming lessons will cover the basics of films and animation, from the history of cinema to video editing with Microsoft Clipchamp, plus a Scoolcode animation project 'Space dog vs. space insects'. Afterwards, students will collect news articles and turn them into engaging digital presentations using Prezi or Canva, practicing structure, visual design and presentation skills.",
       "Session 13: Vehicles. Students will explore electric and digital vehicles, the future of transportation and sustainability, then build a Scoolcode project (e.g. 'Rival delivery drones') to model routes, collisions and simple automation.",
       "Session 14–15: Collections and numbers. These lessons will focus on collecting and analysing data about the group (tables, averages and using a calculator), then on number systems (decimal, binary, base-12/base-20), conversions, bits, bytes and storage sizes, supported by a Scoolcode project like 'Food storing hamster'.",
-      "Session 16–17: Mini quiz and flashback to the past. The course will close with a review mini-quiz and playful recap of key topics (internet, navigation, media, programming), followed by a 'Flashback to the past' session on how science-fiction books and movies predicted or inspired modern technologies, plus a final Scoolcode variables game about defending a Moon colony."
+      "Session 16: Mini quiz and flashback to the past. The course will close with a review mini-quiz and playful recap of key topics (internet, navigation, media, programming), followed by a 'Flashback to the past' session on how science-fiction books and movies predicted or inspired modern technologies, plus a final Scoolcode variables game about defending a Moon colony."
     ]
   },
 
@@ -343,8 +336,7 @@ const coursesConfig = {
       "Session 13: Cake Sharing. Divisibility and remainders with the formula dividend = divisor × integers + remainder, using cakes and points.",
       "Session 14: Number guessing. Mage game with a hidden number, limited tips and optional helper that shows the [min, max] interval.",
       "Session 15: Squirrel forest game. Parallax scrolling, movement variables, lives, points and enemies like mosquitos and an evil squirrel.",
-      "Session 16: Detective game. Summary project with parallax, different variable types, logical operators and several game-over conditions.",
-      "Session 17: Final project. Students design or extend a game of their choice and present it to the group."
+      "Session 16: Detective game. Summary project with parallax, different variable types, logical operators and several game-over conditions. Final project. Students design or extend a game of their choice and present it to the group."
     ]
   },
 
@@ -369,8 +361,7 @@ const coursesConfig = {
       "Session 13: Paint introduction (tools, colors, shapes). Kids designed a creative landscape in Paint then recreated it in Kodu 3D.",
       "Session 14: Encyclopedias & Wikipedia + Kodu collecting game with scoring and guards (wander, lose condition).",
       "Session 15: Emoticons vs emojis + Bee-bot drawing to Paint (one student programs, one draws), then creative artwork expansion.",
-      "Session 16: Paint background creation for Scoolcode stamping game (1334×750). Upload and decorate in Design tab.",
-      "Session 17: Final project lesson (Paint, Bee-bot, or Kodu). Students create and present a small project, recap all digital topics learned."
+      "Session 16: Paint background creation for Scoolcode stamping game (1334×750). Upload and decorate in Design tab. Final project lesson (Paint, Bee-bot, or Kodu). Students create and present a small project, recap all digital topics learned."
     ]
   },
 
@@ -391,8 +382,7 @@ const coursesConfig = {
       "Session 12: Start FPS labyrinth — FPSController setup, maze layout, lighting, and finish point.",
       "Session 13: Add invisible walls, pressure plate + door, and multi-level scene switching.",
       "Session 14–15: Mobile game — Android setup, touch controls, UI buttons, and obstacles.",
-      "Session 16: Final project — students design and start their own Unity mini-game.",
-      "Session 17: Final project polish, debugging, UI, presentation, and course recap."
+      "Session 16: Final project — students design and start their own Unity mini-game. Final project polish, debugging, UI, presentation, and course recap."
     ]
   },
 
@@ -414,8 +404,7 @@ const coursesConfig = {
       "Session 13: Two Player Fighter game (part 2) — using Unity's Input Manager, configuring player-specific controls, finishing combat mechanics, health and damage systems, rounds, power-ups, and support for different input devices.",
       "Session 14: FPS game (part 1) — starting a four-session FPS shooter project by creating the room, pistol, player movement, aiming, and the basic FPS gameplay structure.",
       "Session 15: FPS game (part 2) — implementing the shooting mechanics, bullets/projectiles, weapon behavior, and shooting interactions.",
-      "Session 16: FPS game (part 3) — creating monsters/enemies, enemy spawning, enemy movement toward the player, health and damage interactions, and shooting enemies.",
-      "Session 17: FPS game (part 4) — finishing the FPS project, completing the enemy and shooting systems, polishing the gameplay, testing the final project, and course recap."
+      "Session 16: FPS game (part 3) — creating monsters/enemies, enemy spawning, enemy movement toward the player, health and damage interactions, and shooting enemies. FPS game (part 4) — finishing the FPS project, completing the enemy and shooting systems, polishing the gameplay, testing the final project, and course recap."
     ]
   },
 
@@ -440,8 +429,7 @@ const coursesConfig = {
       "Session 13: Narrative Design — Story structures in games, branching narratives, player choices, consequences, emotional design, and storytelling systems.",
       "Session 14: Reward Systems & Progression — Rewards, leveling systems, unlockables, achievements, feedback loops, motivation cycles, and retention design.",
       "Session 15: Testing & Balancing — Playtesting methods, balancing techniques, bug fixing, difficulty tuning, and quality assurance principles.",
-      "Session 16: Game Project Development — Students work on a structured final game project applying design, mechanics, balance, narrative, and UX principles.",
-      "Session 17: Final Project Presentation — Final game presentation, analysis, peer feedback, reflection, and evaluation of design decisions and learning outcomes."
+      "Session 16: Game Project Development — Students work on a structured final game project applying design, mechanics, balance, narrative, and UX principles. Final Project Presentation — Final game presentation, analysis, peer feedback, reflection, and evaluation of design decisions and learning outcomes."
     ]
   }
 };

@@ -204,17 +204,17 @@ const coursesConfig = {
   ],
 
   next: [
-    "Session 10: Advanced Python problem solving. Students will continue practicing algorithmic thinking and optimize previously created recursive and matrix-based solutions.",
+    "Session 10: Tuples. Students will learn the tuple data structure, how it differs from lists, and how to create, compare, join and convert tuples.",
 
-    "Session 11: Data processing and visualization. Upcoming lessons will focus more deeply on numpy, matplotlib and handling larger datasets with Python.",
+    "Session 11: Practice tuples. Students will solve more complex tasks with tuples, such as a student grading system, finding symmetric pairs, finding the closest point and converting binary digits with bitwise operators.",
 
-    "Session 12: Object-oriented programming introduction. Students will begin learning classes, objects, constructors and reusable object-oriented design principles.",
+    "Session 12: File management 1. Students will open, read, write and append to text files, use the different file modes, readlines(), seek() and with open, and delete files with the os module.",
 
-    "Session 13: Advanced project development. Students will combine recursion, matrices, modules and object-oriented programming into larger real-world Python applications.",
+    "Session 13: File management 2. Students will work with CSV files using the csv and pandas modules, search and filter tables, and draw charts from real data such as Oscar winners and letter frequencies.",
 
-    "Session 14–15: Final Python project. Students will design and build a complete advanced Python project independently while applying all semester concepts.",
+    "Session 14: File management 3. Students will practice data cleaning with pandas and numpy: dropping columns, re-indexing tables, fixing messy dates and places, and filling missing values.",
 
-    "Session 16: Final presentation and review. Students will present their projects, explain their algorithms and review advanced Python concepts learned during the course."
+    "Session 15–16: Pygame project. Students will build a two-player space battle game with Pygame, with a game window, moving spaceships, borders, bullets, lives, a winner screen and sound effects."
   ]
 },
   // 433 – Python Master
@@ -661,16 +661,16 @@ function sessionLabel(start, end) {
 // Some upcoming-lesson texts are written in the future tense ("Students will build…").
 // When those lessons move to "What We Covered", rewrite them in the past tense.
 const PAST_TENSE = {
-  add: "added", analyse: "analysed", animate: "animated", build: "built",
+  add: "added", analyse: "analysed", append: "appended", animate: "animated", build: "built",
   close: "closed", code: "coded", collect: "collected", combine: "combined",
-  copy: "copied", cover: "covered", create: "created", decode: "decoded",
+  copy: "copied", cover: "covered", create: "created", decode: "decoded", delete: "deleted",
   deepen: "deepened", describe: "described", design: "designed", draw: "drew",
-  begin: "began", continue: "continued", encode: "encoded", explain: "explained", explore: "explored", finish: "finished", focus: "focused", improve: "improved",
+  begin: "began", continue: "continued", encode: "encoded", explain: "explained", explore: "explored", finish: "finished", filter: "filtered", focus: "focused", improve: "improved", open: "opened",
   invent: "invented", learn: "learned", optimize: "optimized", make: "made", play: "played",
   practice: "practiced", practise: "practised", prepare: "prepared", present: "presented", program: "programmed",
-  read: "read", rebuild: "rebuilt", review: "reviewed", solve: "solved",
+  read: "read", rebuild: "rebuilt", review: "reviewed", search: "searched", solve: "solved",
   start: "started", take: "took", talk: "talked", try: "tried", turn: "turned",
-  use: "used", write: "wrote"
+  use: "used", work: "worked", write: "wrote"
 };
 
 function toPastTense(text) {

@@ -38,7 +38,9 @@ const coursesConfig = {
       "Session 11: LEGO with sensor. Students will build an animal shelter with LEGO and use a colour sensor to make it react.",
       "Session 12: Dice. Students will practice adding numbers with dice and play Snakes and Ladders and a building game in Scoolcode.",
       "Session 13: Board games. Students will design their own board game with special task spaces and play each other's games.",
-      "Session 14: LEGO with sensor. Students will learn about wind and erosion and build a LEGO windbreaker with a colour sensor and LED panel."
+      "Session 14: LEGO with sensor. Students will learn about wind and erosion and build a LEGO windbreaker with a colour sensor and LED panel.",
+      "Session 15: Repetition. Students will learn what repetition means, give repeated commands to a classmate \"robot\" to walk shapes, and draw shapes with repetition in Scoolcode.",
+      "Session 16: LEGO redesign. Students will build and program a LEGO kitchen tool, then take it apart and redesign it into a new object."
     ]
   },
 

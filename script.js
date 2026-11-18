@@ -690,10 +690,10 @@ const PAST_TENSE = {
   close: "closed", code: "coded", collect: "collected", combine: "combined",
   copy: "copied", cover: "covered", create: "created", decode: "decoded", delete: "deleted",
   deepen: "deepened", describe: "described", design: "designed", draw: "drew",
-  begin: "began", continue: "continued", encode: "encoded", explain: "explained", explore: "explored", finish: "finished", filter: "filtered", focus: "focused", improve: "improved", open: "opened",
+  begin: "began", continue: "continued", encode: "encoded", explain: "explained", explore: "explored", finish: "finished", filter: "filtered", focus: "focused", give: "gave", improve: "improved", open: "opened",
   invent: "invented", learn: "learned", optimize: "optimized", make: "made", play: "played",
   practice: "practiced", practise: "practised", prepare: "prepared", present: "presented", program: "programmed",
-  read: "read", rebuild: "rebuilt", review: "reviewed", search: "searched", solve: "solved",
+  read: "read", rebuild: "rebuilt", redesign: "redesigned", review: "reviewed", search: "searched", solve: "solved",
   start: "started", take: "took", talk: "talked", try: "tried", turn: "turned",
   use: "used", work: "worked", write: "wrote"
 };

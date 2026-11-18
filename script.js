@@ -19,6 +19,29 @@ const coursesConfig = {
     ]
   },
 
+  // DI-102 – Digital Intelligence
+  "DI-102": {
+    courseName: "102 – Digital Intelligence",
+    covered: [
+      "Session 1: Hardware and software. Students learned the difference between the parts of a device they can touch and the programs inside it, drew their favourite hardware and practiced the keyboard in Scoolcode games.",
+      "Session 2: Bee-bot arrow cards. Students programmed the Bee-bot with arrow and obstacle cards, went on a treasure hunt and memorised steps in a Bee-bot dance.",
+      "Session 3: MS Paint and patterns. Students used the pencil, shapes and colour bucket in MS Paint, drew repeating patterns and recreated a robot made of shapes.",
+      "Session 4: Story with images and Kodu. Students completed half-drawn pictures in Paint, got to know the Kodu world tools and built story scenes in pairs.",
+      "Session 5: Pixel art. Students learned what pixels are and created pixel art on paper, in Scoolcode games and in Kodu.",
+      "Session 6: Bee-bot mission. Students planned paths, counted steps and fixed mistakes to complete Bee-bot missions in the classroom, then created missions for each other.",
+      "Session 7: MyLogiscool games. Students practiced using the mouse and the keyboard with high score and mini-quest games on MyLogiscool.",
+      "Session 8: Kodu practice. Students learned the if–then idea and programmed their first Kodu game: collecting apples and returning to the hut to win."
+    ],
+    next: [
+      "Session 9: Bee-bot map design. Students will design their own Bee-bot maps in pairs and play on each other's maps.",
+      "Session 10: Scoolcode backgrounds. Students will draw a background and a tree in Paint and use them in their own Scoolcode scene.",
+      "Session 11: LEGO with sensor. Students will build an animal shelter with LEGO and use a colour sensor to make it react.",
+      "Session 12: Dice. Students will practice adding numbers with dice and play Snakes and Ladders and a building game in Scoolcode.",
+      "Session 13: Board games. Students will design their own board game with special task spaces and play each other's games.",
+      "Session 14: LEGO with sensor. Students will learn about wind and erosion and build a LEGO windbreaker with a colour sensor and LED panel."
+    ]
+  },
+
   // DI-110 – Digital Intelligence
   "DI-110": {
     courseName: "110 – Digital Intelligence",

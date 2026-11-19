@@ -264,17 +264,391 @@ const coursesConfig = {
     ]
   },
 
-  // 101 – Digital Discovery
+  // 101 – Digital Intelligence
   "101": {
-    courseName: "101 – Digital Discovery",
+    courseName: "101 – Digital Intelligence",
     covered: [
-      "Session 1–2: Greeting, house rules and getting to know each other. Students practiced basic computer use (turning the computer on/off, holding and using the mouse correctly) and logged in to MyLogiscool for the first time, with simple team-building games.",
-      "Session 3–4: Introduction to Bee-bot and left–right directions. Students learned how to program the robot using simple button sequences and connected movements to directions on maps and simple roads and traffic signs activities."
+      "Session 1: Greeting and introduction. Students got to know each other with team-building games, practiced using the mouse and logged in to MyLogiscool for the first time.",
+      "Session 2: Left-right directions and Bee-bot. Students learned left and right and met the Bee-bot robot.",
+      "Session 3: Scoolcode games. Students played Scoolcode games while practicing how to use the mouse.",
+      "Session 4: Roads and Bee-bot. Students drew road signs, built a Bee-bot road and programmed the robot along it.",
+      "Session 5: Scoolcode games. Students practiced line following, find-the-difference and memory games.",
+      "Session 6: Shapes and Scoolcode. Students played guessing games and quizzes about shapes and practiced with Scoolcode games.",
+      "Session 7: Bee-bot shapes. Students programmed the Bee-bot to move in shapes and practiced drag and drop and drawing.",
+      "Session 8: Processes. Students learned how everyday activities follow steps in order, like brushing teeth or making tea, and played mini-quests."
     ],
     next: [
-      "Session 5: First Scoolcode mini-games. Kids created very simple programs with ready-made actors and backdrops, practicing clicking, dragging blocks and running their own projects.",
-      "Session 6: Shapes and Scoolcode. Students used Scoolcode to draw and recognize basic shapes, combining offline drawing tasks with digital ones.",
-      "Session 7: Bee-bot shapes. Students programmed Bee-bot to trace shapes on the floor (squares, rectangles, simple paths), connecting geometry with step-by-step programming."
+      "Session 9: Algorithms. Students will learn what an algorithm is and practice it with Scoolcode games.",
+      "Session 10: Robotics. Students will learn the basics of robotics and build their first LEGO WeDo/Spike robots.",
+      "Session 11: Directions. Students will learn north, south, east and west with a quiz and Scoolcode games.",
+      "Session 12: Analog and digital tools. Students will learn the difference between analog and digital tools, create their own avatar in Scoolcode and play a puzzle game.",
+      "Session 13: Robotics 2. Students will build more LEGO WeDo/Spike robots and try simple programming.",
+      "Session 14: AI for kids. Students will discover what artificial intelligence is, play a Scoolcode AI game and try an image recognition quiz.",
+      "Session 15: Robotics 3. Students will build and program another LEGO WeDo/Spike robot.",
+      "Session 16: Summary and Kodu. Students will review the semester with an activity game and create their first Kodu game as a look ahead to the next semester."
+    ]
+  },
+
+  // 213 – Blox Master
+  "213": {
+    courseName: "213 – Blox Master",
+    covered: [
+      "Session 1–2: Coordinates, drawing and loops. Students built a coordinate grid to find a hidden ball and drew snowflakes, spirals and flowers with nested loops and variables.",
+      "Session 3: Minigames. Students practiced background changes in a beach collecting game.",
+      "Session 4–5: Mouse events. Students practiced mouse events by aiming at an apple and watering flowers.",
+      "Session 6–7: Tinting and cloning actors. Students practiced tinting actors, explored the limits of cloning and made a space-themed project.",
+      "Session 8: Project lesson. Students worked on their own project to practice everything learned so far."
+    ],
+    next: [
+      "Session 9: Cat on the table. Students will practice signals, lists and cloning.",
+      "Session 10–11: Pirate adventure and flying game. Students will sail past sea monsters to find a treasure island and use background changes as events in a flying game.",
+      "Session 12: Collector walrus. Students will build a game where a walrus collects the right falling objects.",
+      "Session 13–14: Cloning, positioning and local variables. Students will build the pirate captain's treasure and practice clones, signals, local variables and divisibility.",
+      "Session 15–16: Multiplayer game and target shooting. Students will build a two-player tank battle and a target shooting game, then finish the semester with a project."
+    ]
+  },
+
+  // 301 – Mix Intro (fast)
+  "301": {
+    courseName: "301 – Mix Intro (fast)",
+    covered: [
+      "Session 1: Introduction to Scoolcode. Students learned about movement, actors, conditions, loops and the pen tool through two simple programs.",
+      "Session 2: Variables. Students used variables to build a number-guessing game.",
+      "Session 3: Logical operators. Students learned how logical operators work and why they are important in programming.",
+      "Session 4: Frog in the city. Students built a game where a frog crosses busy city roads.",
+      "Session 5: Signals, cloning and local variables. Students built two projects using signals, clones and local variables."
+    ],
+    next: [
+      "Session 6: Transporter porcupine troop. Students will practice cloning and how clones interact with each other.",
+      "Session 7: Brick wall. Students will build the classic brick breaker game.",
+      "Session 8: Memory game. Students will use lists to build an underwater memory game where they remember the direction of the fish.",
+      "Session 9–10: Complex logic game. Students will build a popular logic game over two lessons while revising lists."
+    ]
+  },
+
+  // 401 – Master Class Basic
+  "401": {
+    courseName: "401 – Master Class Basic",
+    covered: [
+      "Session 1: Snakes and ladders. Students built a two-player board game with dice rolls, ladders and snakes in Scoolcode TEXT mode.",
+      "Session 2: Bubble trouble. Students used the Scoolcode physics engine to shoot a bouncing ball that splits into smaller balls.",
+      "Session 3–4: Explorer jumper and cat feeding. Students built a jumping game and a multiplayer game where cats collect healthy fish.",
+      "Session 5–6: Color match and Tap the Turtle. Students built matching games and practiced working with clones.",
+      "Session 7–8: Kalaha (Mancala). Students built the ancient Kalaha board game over two lessons, including the step algorithm and the game ending."
+    ],
+    next: [
+      "Session 9–10: Upside down and ladder climb. Students will build a two-sided platform game and a ladder climbing game.",
+      "Session 11–13: Snake games and cycling. Students will build a snake vs blocks game, a cycling game and the classic snake game.",
+      "Session 14–15: Meteor shower and BinaryBlocks. Students will build a space dodging game and a number comparison game.",
+      "Session 16: Expansion. Students will build an expansion game as the last project of the semester and finish their own project."
+    ]
+  },
+
+  // 402 – Master Class Advanced
+  "402": {
+    courseName: "402 – Master Class Advanced",
+    covered: [
+      "Session 1: Star Catcher. Students built a game in Scoolcode MIX mode using polar coordinates, where a spaceship on a circular orbit catches stars.",
+      "Session 2–3: Recursion and fractals. Students learned recursion by drawing squares, spirals and trees, then drew fractals like the Koch curve and snowflake.",
+      "Session 4–5: Factorial, Fibonacci and the Towers of Hanoi. Students visualised classic recursive problems step by step.",
+      "Session 6: String-handling functions. Students used recursion to reverse strings and check palindromes.",
+      "Session 7–8: Brick wall and maze algorithm. Students built a brick breaker game and a program that generates a random maze."
+    ],
+    next: [
+      "Session 9–11: Matrices – exploding buttons. Students will use two-dimensional arrays and recursion to build a button exploding board game.",
+      "Session 12: Matrices – memory game. Students will build the classic memory game with matrices.",
+      "Session 13–14: Matrices – puzzle game. Students will build the Fifteen Puzzle step by step, including shuffling and the game ending.",
+      "Session 15–16: Minesweeper. Students will build the classic Minesweeper game using recursion and finish the semester with a project."
+    ]
+  },
+
+  // 403 – Basics of AI and Data Science
+  "403": {
+    courseName: "403 – Basics of AI and Data Science",
+    covered: [
+      "Session 1: Introduction to data science. Students learned what data science is and created a smart computer player for tic-tac-toe.",
+      "Session 2: Machine learning. Students learned about machine learning and supervised and unsupervised learning methods.",
+      "Session 3: Search algorithms. Students learned depth-first and breadth-first search with a Scoolcode programming task.",
+      "Session 4: Patterns and classification models. Students learned about classification, support vector machines and human responsibility in AI.",
+      "Session 5–6: The Nim game. Students learned the winning strategies of an old mathematical game and built a program where the computer learns to play against a human.",
+      "Session 7: Numerical models and KNN. Students learned how computers build models from numeric data and how the KNN algorithm works.",
+      "Session 8: Face recognition and neural networks. Students explored AI with images and face recognition and learned how neural networks work."
+    ],
+    next: [
+      "Session 9–10: Decision trees. Students will learn about decision trees and build an adventure game based on their own decision tree.",
+      "Session 11–12: Data visualization. Students will create charts with online tools and in Scoolcode using a real high score dataset.",
+      "Session 13–14: AI text, chatbots and music. Students will learn how chatbots work, build one in Scoolcode, and explore sound recognition and AI music.",
+      "Session 15–16: Machine learning projects and summary. Students will explore real machine learning projects on Kaggle, review the semester and work on their own project."
+    ]
+  },
+
+  // 405 – LEGO Spike Prime with Python
+  "405": {
+    courseName: "405 – LEGO Spike Prime with Python",
+    covered: [
+      "Session 1–2: Robotics and servo motors. Students got to know the LEGO Spike Prime kit, wrote their first Python code and made their robot take its first steps.",
+      "Session 3: Variables and loops. Students used loops, branches and variables in Python with the light matrix on the hub.",
+      "Session 4: Coding challenge. Students reviewed what they learned in a quiz and solved coding challenges with their robots.",
+      "Session 5–7: Sensors. Students learned to use the distance, color and force sensors.",
+      "Session 8: Coding challenge. Students reviewed the sensors in a quiz and solved more coding challenges."
+    ],
+    next: [
+      "Session 9–10: Functions. Students will learn and practice functions in Python.",
+      "Session 11: Piano. Students will build a LEGO piano and program it to play music.",
+      "Session 12: Hand gestures. Students will use several sensors to move the motors with hand gestures.",
+      "Session 13–14: Gyro sensor. Students will build a ball maze game and control a driving robot with the gyro sensor.",
+      "Session 15: Maze solver. Students will build a driving robot with several distance sensors that escapes from a maze.",
+      "Session 16: Sorting robot and basketball game. Students will build a robot that sorts objects by size and finish the semester with a basketball game and a quiz."
+    ]
+  },
+
+  // 411 – Godot Basic
+  "411": {
+    courseName: "411 – Godot Basic",
+    covered: [
+      "Session 1–2: The Godot environment. Students got to know the Godot game engine and started programming in GDScript.",
+      "Session 3–4: Basics of GDScript. Students practiced loops, statements and conditions, and created a character that moves and jumps.",
+      "Session 5–6: Animations. Students created character animations and an NPC.",
+      "Session 7–8: Tilemaps and a race game. Students learned about tiles and tilemaps and built a race game with car controls."
+    ],
+    next: [
+      "Session 9–10: Menus, lists and functions. Students will build a quiz game with lists, UI elements, their own functions and data read from text files.",
+      "Session 11–12: Labyrinth from a file. Students will generate a labyrinth from a text file and learn more about UI elements and inputs.",
+      "Session 13: Animations, lights and particles. Students will add lights, new animations and particle effects to their games.",
+      "Session 14–16: Platformer game. Students will build a complete platformer with a parallax background, collectible keys, treasure chests, a menu and several levels."
+    ]
+  },
+
+  // 412 – Godot Advanced
+  "412": {
+    courseName: "412 – Godot Advanced",
+    covered: [
+      "Session 1–2: Revision project. Students revised character movement, animations, inputs, level design and menus, and added a timer that saves the best result.",
+      "Session 3–4: Saving and loading. Students built a saving system, learned about the Dictionary data structure and Perlin noise, and handled errors.",
+      "Session 5–6: Top-down shooter. Students built a top-down shooter with a smart computer opponent.",
+      "Session 7: Sounds and sound effects. Students worked with sounds and visualised sound tracks.",
+      "Session 8: Splitscreen game. Students started a two-player splitscreen game."
+    ],
+    next: [
+      "Session 9: Splitscreen game 2. Students will finish their splitscreen game.",
+      "Session 10: 3D in Godot. Students will learn the 3D world of Godot and build a simple 3D game.",
+      "Session 11–12: Grappling hook and wall running. Students will build a 3D game with grappling hook and wall running mechanics and learn how to build the game.",
+      "Session 13–14: Isometric world. Students will build a city-building game in 2.5D and control the tilemap from code.",
+      "Session 15–16: Knight Must Stop! Students will build a copy of a mobile action game in 2.5D as the final project of the semester."
+    ]
+  },
+
+  // 422 – Unity Advanced
+  "422": {
+    courseName: "422 – Unity Advanced",
+    covered: [
+      "Session 1–2: Fall Down ball game. Students built a hyper-casual mobile game and learned about SkyBox.",
+      "Session 3–4: 3D Brick Breaker. Students built a classic 2D game in 3D and added their own improvements.",
+      "Session 5–6: Hexagon game. Students built a 2D Android game with custom colliders.",
+      "Session 7–8: Bricks and Balls. Students built a 2D game and learned about arrays and lists."
+    ],
+    next: [
+      "Session 9–11: Frogger game. Students will build a 3D Frogger game and learn how to create terrain.",
+      "Session 12–13: Terrain generation. Students will generate terrain with matrices and add buttons, panels and a full menu to their games.",
+      "Session 14–16: Flying simulator. Students will build a VR flying simulator as the final project of the semester."
+    ]
+  },
+
+  // 434 – AI and Data Science with Python 1
+  "434": {
+    courseName: "434 – AI and Data Science with Python 1",
+    covered: [
+      "Session 1–2: Introduction and data preparation. Students learned what data science is and how to prepare and handle data.",
+      "Session 3–4: Classification. Students built prediction models, measured accuracy and used KNN, decision trees and SVM.",
+      "Session 5–6: Regression. Students solved regression tasks in Python.",
+      "Session 7–8: Clustering. Students learned basic and hierarchical clustering in Python."
+    ],
+    next: [
+      "Session 9–10: DBSCAN. Students will use the DBSCAN algorithm to cluster map data.",
+      "Session 11: Data visualization. Students will learn about misleading graphs and create interactive visualizations.",
+      "Session 12–13: Recommendations and association rules. Students will build a recommendation system and use association rules in Python.",
+      "Session 14–15: Anomaly detection. Students will learn the basics of anomaly detection and review the course in a quiz.",
+      "Session 16: Project. Students will build their own data science project, from the idea to the model, and present it."
+    ]
+  },
+
+  // 435 – AI and Data Science with Python 2
+  "435": {
+    courseName: "435 – AI and Data Science with Python 2",
+    covered: [
+      "Session 1–2: Neural networks. Students learned the basics of neural networks with hands-on examples.",
+      "Session 3–4: Image recognition. Students used convolutional neural networks to recognise images in Python.",
+      "Session 5–6: Face recognition. Students built a face recognition model and discussed AI topics.",
+      "Session 7–8: Sentiment analysis. Students used neural networks to analyse the sentiment of texts."
+    ],
+    next: [
+      "Session 9–10: Text generation. Students will use neural networks to generate text automatically.",
+      "Session 11–12: Chatbot. Students will write a chatbot in Python and discuss the ethics of data science.",
+      "Session 13–14: Time series and LSTM. Students will use LSTM networks to predict passenger numbers and stock prices.",
+      "Session 15–16: Project. Students will review the semester, build their own models and present their projects."
+    ]
+  },
+
+  // 491 – Developer Master Class Python
+  "491": {
+    courseName: "491 – Developer Master Class Python",
+    covered: [
+      "Session 1–2: Software projects and ideas. Students learned who works on a software project, how to validate ideas, feature mapping and the MVP.",
+      "Session 3–4: Software architecture and SQL. Students learned how to plan development and practiced SQL in a test database.",
+      "Session 5–6: UX and UI design. Students learned the difference between UX and UI and designed wireframes and interfaces in Figma.",
+      "Session 7–8: Task management and version control. Students learned how to manage tasks and track changes in software development."
+    ],
+    next: [
+      "Session 9–10: APIs and testing. Students will use APIs and learn how software is tested.",
+      "Session 11–12: Debugging and the cloud. Students will practice debugging and learn about networks and cloud computing.",
+      "Session 13: IT security. Students will learn about encryption, secure connections and application security.",
+      "Session 14–15: Websites and business data. Students will learn the basics of HTML and SEO, and create charts and infographics from business data.",
+      "Session 16: Programming etiquette and portfolio. Students will learn good programming practices and create their own portfolio website."
+    ]
+  },
+
+  // Creative Design & 3D
+  "Creative Design & 3D": {
+    courseName: "Creative Design & 3D",
+    covered: [
+      "Session 1–2: Digital drawing and Tinkercad. Students got to know Krita for digital drawing and Tinkercad for 3D design with simple shapes.",
+      "Session 3–4: Colors, pixels and cutting objects. Students learned colour theory and pixel art, and cut 3D objects using negative shapes.",
+      "Session 5–6: Composition and negative shapes. Students used layers in Krita and designed tools in Tinkercad while learning about industrial 3D printing.",
+      "Session 7–8: Drawing styles and furnishings. Students explored creative styles and copyright, and designed and furnished a room in Tinkercad."
+    ],
+    next: [
+      "Session 9–10: Lettering and house design. Students will practice typography and graffiti letters and design a house in Tinkercad.",
+      "Session 11–12: Vector graphics and house design. Students will create icons and avatars with vector tools and finish their house design.",
+      "Session 13–14: Animation and code blocks. Students will animate drawings in Krita and create 3D models with code blocks.",
+      "Session 15–16: AI and final project. Students will use AI in digital drawing, finish their projects and show their best works in a virtual exhibition."
+    ]
+  },
+
+  // Creative Production
+  "Creative Production": {
+    courseName: "Creative Production",
+    covered: [
+      "Session 1–2: Digital drawing and film basics. Students got to know Krita and learned the basics of film theory and the WeVideo editor.",
+      "Session 3–4: Colors, pixels and video shooting. Students learned colour theory and pixel art, and shot their first videos.",
+      "Session 5–6: Composition and editing. Students used layers in Krita and edited their videos with different techniques.",
+      "Session 7–8: Drawing styles and silent films. Students explored creative styles and created a silent film with subtitles and effects."
+    ],
+    next: [
+      "Session 9–10: Lettering and a personal vlog. Students will practice typography and start their first vlog episode.",
+      "Session 11–12: Vector graphics and the vlog. Students will create icons and avatars with vector tools and finish their vlog episode.",
+      "Session 13–14: Animation and advertisements. Students will animate drawings in Krita and create their own advertisement.",
+      "Session 15–16: AI, a report and the final project. Students will use AI in digital drawing, shoot and edit a report, and present their final films."
+    ]
+  },
+
+  // Digital Art & AI
+  "Digital Art & AI": {
+    courseName: "Digital Art & AI",
+    covered: [
+      "Session 1–2: Generative AI and digital drawing. Students learned how AI generates text and got to know Krita for digital drawing.",
+      "Session 3–4: AI images, colors and pixels. Students learned how AI generates images and studied colour theory and pixel art.",
+      "Session 5–6: Prompt engineering and composition. Students practiced prompt engineering techniques and used layers in Krita.",
+      "Session 7–8: Multi-modal AI and drawing styles. Students used multi-modal AI and explored creative styles and copyright."
+    ],
+    next: [
+      "Session 9–10: Advanced AI techniques and lettering. Students will edit and upscale images with AI and practice typography.",
+      "Session 11–12: More AI techniques and vector graphics. Students will create patterns, optical illusions and consistent characters with AI, and design icons and avatars.",
+      "Session 13–14: AI audiovisuals and animation. Students will create AI animations and voices and animate drawings in Krita.",
+      "Session 15–16: AI video and final exhibition. Students will create AI avatars, songs and a YouTube short, use AI in illustration and show their best works in a virtual exhibition."
+    ]
+  },
+
+  // Digital Illustration & AI
+  "Digital Illustration & AI": {
+    courseName: "Digital Illustration & AI",
+    covered: [
+      "Session 1–2: Generative AI and drawing. Students learned how AI generates text and practiced freehand and digital drawing.",
+      "Session 3–4: AI images and digital drawing. Students learned how AI generates images and explored the history of digital drawing and symmetric drawing.",
+      "Session 5–6: Prompt engineering, colors and pixels. Students practiced prompt engineering and learned colour theory and pixel art.",
+      "Session 7–8: Multi-modal AI and the color wheel. Students used multi-modal AI and created and generated pixel art."
+    ],
+    next: [
+      "Session 9–10: Advanced AI techniques and composition. Students will edit and upscale images with AI and create images and 3D drawings in Canva.",
+      "Session 11–12: More AI techniques and drawing styles. Students will create patterns and consistent characters with AI and draw avatars in different styles.",
+      "Session 13–14: AI audiovisuals and animation. Students will create AI animations and voices and animate drawings with simple programming.",
+      "Session 15–16: AI video and final exhibition. Students will create a YouTube short with AI, draw with AI support and show their best works in a virtual exhibition."
+    ]
+  },
+
+  // Video Creation & AI
+  "Video Creation & AI": {
+    courseName: "Video Creation & AI",
+    covered: [
+      "Session 1–2: Generative AI and film basics. Students learned how AI generates text and learned the basics of film theory and the WeVideo editor.",
+      "Session 3–4: AI images and video shooting. Students learned how AI generates images and shot their first videos.",
+      "Session 5–6: Prompt engineering and editing. Students practiced prompt engineering and edited their videos with different techniques.",
+      "Session 7–8: Multi-modal AI and silent films. Students used multi-modal AI and created a silent film with subtitles and effects."
+    ],
+    next: [
+      "Session 9–12: Advanced AI techniques and a personal vlog. Students will explore advanced AI image techniques and create their first vlog episode.",
+      "Session 13–14: AI audiovisuals and advertisements. Students will create AI animations and voices and make their own advertisement.",
+      "Session 15–16: AI video, a report and the final project. Students will generate a YouTube short with AI, shoot a report and present their final films."
+    ]
+  },
+
+  // 3D Design course
+  "3D Design course": {
+    courseName: "3D Design course",
+    covered: [
+      "Session 1: Getting to know Tinkercad. Students got to know Tinkercad and designed with simple shapes.",
+      "Session 2–3: Cutting objects and negative shapes. Students cut objects using negative shapes and designed tools while learning about 3D printing."
+    ],
+    next: [
+      "Session 4: Furnishings. Students will design furniture and furnish a room in Tinkercad.",
+      "Session 5–6: House design. Students will design and finish their own house plan in Tinkercad."
+    ]
+  },
+
+  // App Creation course
+  "App Creation course": {
+    courseName: "App Creation course",
+    covered: [
+      "Session 1: Thunkable applications. Students got to know Thunkable and created their first apps.",
+      "Session 2: AI tools. Students used a translator and an image recognizer in their apps.",
+      "Session 3: Daily quote app. Students used an external database, variables and functions to create a daily quote app.",
+      "Session 4: Tic-tac-toe. Students created a tic-tac-toe game.",
+      "Session 5: Workout app. Students designed a workout app with multiple screens."
+    ],
+    next: [
+      "Session 6: Workout app 2. Students will finish their workout app.",
+      "Session 7–8: Shopping list and barcode reader. Students will build a shopping list app with their own database and a barcode reader.",
+      "Session 9–10: Calorie counter. Students will build a calorie counter app as the final project of the course."
+    ]
+  },
+
+  // Generative AI course
+  "Generative AI course": {
+    courseName: "Generative AI course",
+    covered: [
+      "Session 1–2: Generative AI. Students learned how computers learn and how AI generates text and images.",
+      "Session 3–4: Prompt engineering and multi-modal AI. Students practiced prompt engineering techniques and used multi-modal AI.",
+      "Session 5: Advanced techniques. Students edited and upscaled images with advanced AI techniques."
+    ],
+    next: [
+      "Session 6: More advanced techniques. Students will create patterns, optical illusions and consistent characters with AI.",
+      "Session 7–8: AI audiovisuals. Students will create AI animations, voices, songs and avatars and generate a YouTube short.",
+      "Session 9: Glitches, ethics and jokes. Students will explore the fun side of AI and talk about ethics and safety.",
+      "Session 10: Time capsule. Students will create a time capsule, showcase their works and review the course."
+    ]
+  },
+
+  // Minecraft Mod Masters course
+  "Minecraft Mod Masters course": {
+    courseName: "Minecraft Mod Masters course",
+    covered: [
+      "Session 1–2: MCreator and Blockbench. Students got to know MCreator and Blockbench and created their first mods.",
+      "Session 3–4: Equipment and models. Students made equipment and structures and created their first models.",
+      "Session 5: Vehicle. Students created a drivable vehicle."
+    ],
+    next: [
+      "Session 6: Painting and hammer. Students will create unique equipment with superpowers.",
+      "Session 7–8: Custom dimension. Students will create unique entities and their own dimension.",
+      "Session 9–10: Final project. Students will work on their own mods and present their models and worlds to the group."
     ]
   },
 
@@ -540,6 +914,12 @@ const coursesConfig = {
   }
 };
 
+// Courses that share the same lessons
+coursesConfig["404"] = coursesConfig["403"];
+coursesConfig["492"] = coursesConfig["491"];
+coursesConfig["DI-101"] = coursesConfig["101"];
+
+
 
 // ============================================================
 // DOM ELEMENTS
@@ -686,6 +1066,7 @@ function sessionLabel(start, end) {
 // Some upcoming-lesson texts are written in the future tense ("Students will build…").
 // When those lessons move to "What We Covered", rewrite them in the past tense.
 const PAST_TENSE = {
+  compare: "compared", control: "controlled", convert: "converted", discover: "discovered", discuss: "discussed", edit: "edited", furnish: "furnished", generate: "generated", join: "joined", sail: "sailed", shoot: "shot", show: "showed", showcase: "showcased", upscale: "upscaled",
   add: "added", analyse: "analysed", append: "appended", animate: "animated", build: "built",
   close: "closed", code: "coded", collect: "collected", combine: "combined",
   copy: "copied", cover: "covered", create: "created", decode: "decoded", delete: "deleted",

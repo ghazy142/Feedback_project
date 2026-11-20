@@ -143,7 +143,7 @@ textarea {
   font-size: 13px;
   line-height: 1.5;
   color: #000000; 
-     /* ثابت تقريبًا على عرض A4 */
+  overflow-wrap: break-word;
 
 }
 
@@ -204,4 +204,12 @@ textarea {
   font-size: 14px;
   color: #777;
   margin: 10px 0 20px;
+}
+
+/* Used only while exporting the PDF: fixed A4-friendly width plus a
+   right-side safety gap so the last word on a line is never cut off. */
+#feedback-preview.pdf-export {
+  width: 690px;
+  box-sizing: border-box;
+  padding-right: 24px;
 }

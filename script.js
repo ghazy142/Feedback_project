@@ -1665,10 +1665,17 @@ if (downloadPdfBtn) {
       setTimeout(
         () => {
 
+          element.classList.add("pdf-export");
+
           html2pdf()
             .set(opt)
             .from(element)
-            .save();
+            .save()
+            .then(() => element.classList.remove("pdf-export"))
+            .catch((err) => {
+              element.classList.remove("pdf-export");
+              console.error(err);
+            });
 
         },
         150
